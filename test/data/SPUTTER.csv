@@ -1,0 +1,3853 @@
+PROCESS_ID,PROCESS_DESC,EQUIP_ID,EQUIP_DESC,LINE_ID,MACHINE_ID,TROUBLE_ID,TROUBLE_DESC,TROUBLE_DATE,TROUBLE_STIME,TROUBLE_ETIME,DURATION,ATTEND_BY,CAUSES,ACTION,UPDATED_BY,UPDATED_DATE,UPDATED_TIME,ENGINEER_COMMENT,COMMENT_BY,COMMENT_DATE,COMMENT_TIME
+B03,SPUTTER,E023,SPT,201,-,SM2020,CONVERSION/PLAN DOWN,2021/04/04,08:20,17:15,535,"LIEW YM,REGEN TEAM",Startup,"> Take over the machine.
+> Copy all datas needed.
+> Call out all carriers.
+> Remove P8,P9,P19 & P20 GVs and GV covers
+> Check and change all faulty bearings.
+> Service all chambers and mv o-rings.
+> Perform kiv activities
+-Toluene canister weight-16.94KG
+- For Youtec (P19) & Hi-Ru(P8), vent adjacent chambers to see any leak over (Toh KC)
+- Evaluate No servcing of all GVs during Fast REGEN . Service Youtec adjacent GV and internal leak GV only.
+- Change P8,P9,P19 & P20GV Cover secure block to modify type. (Toh KC)
+- Service P0 linear guide. (Toh KC)
+- Grease all TDU. Remove old grease before applying new grease. (Toh KC)
+- Check TDU coupling for wear, change iF NG(Toh KC) P3,P5,P6,P10,P20 & P22
+- Collect carrier force gauge data for all chambers (Toh KC)
+- Change P18, 19 & P20 double air vent valve. (Toh KC)
+- Check P20 & 22 back latch at behind chamber coupling side. (Toh KC)
+- Change P8 & P9 , P19 & P20 GV Cover secure block to modify type. (Toh KC)
+- Change P20 Drypump
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Top up CRC 3 & 6
+> Install all GVs and GV covers
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.OK
+> Perform external  leak check.OK
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 300s.
+> Monitor alignment. OK
+> Handover to Production
+
+===================================
+Regen IC : Liew YM
+HLL to P3 : Liew Seng Eik
+P4 to P6 : Wong Tian Sit
+P7 to P9 : Chan Sze Long
+P10 to P12 : Choong Hwee Yin
+P13 to P14 : Feng Wei
+P15 to C4 : Moorthy
+P18 to VTC : Steven Chung,Sun Xi Wen
+GV: Jin Fei
+LD,ULD & P0 : Koh Chong Hai,Tay Kok Hwee,Wang Zhe Ming
+KIV: Tan Sin Choon,Roy Wee
+
+
+
+P20 Youtec
+New : 03
+
+",20150023,2021/04/04,17:31:18,,,,
+B03,SPUTTER,E023,SPT,201,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/06,04:25,04:35,10,"SHAHID,SUNTHRA,MING YONG,FARID",-,">> P11 R1 no discharge
+>> Test fire.OK
+>> Resume run
+>> Handover
+
+Scrap disk : 100",20108743,2021/04/06,04:35:14,,,,
+B03,SPUTTER,E023,SPT,201,-,SM2080,DROP DISK DETECTED AT C3,2021/04/05,03:05,03:10,5,"SHAHID,CI,SUNTHRA,WANG",-,"- C3 pos1 disk drop detect error
+- Change carrier 7
+- Monitor alignment
+- Handover",20034409,2021/04/05,04:26:26,,,,
+B03,SPUTTER,E023,SPT,201,-,SM2652,OFFLINE SERVICING,2021/04/02,08:30,13:00,270,"FENG WEI,WONG TS,LIEW YM",-,"> Change P17 Bias Cylinder.
+  - Change P17 Bias Spring.
+  - Check & adjust Bias contact alignment.Ok
+> Change P18 F2 RMC driver.
+  - Update P18 initial 2 setting.
+  - On P18 RMC & check.Ok
+> Change P21 TDU.
+  - Change SR2, RB3, RB4, RB5 & RB6 bearing.
+  - Adjust P21 carrier centering.Ok
+  - Change transfer pulse from 36050 to 35930.
+  - Check & adjust TDU butterfly alignment.Ok
+> Change ULD PP-Robot to original.
+  - Old Robot error : when jog will wait 2sec then move.
+  - Change ULD PP-Robot ARM.
+  - Check Robot application & speed.Ok
+  - Zeroing T-point.Ok
+  - Check & adjust ULD PP-Robot alignment.Ok
+
+0 Scrap disk",PDTA_20077706,2021/04/02,13:57:05,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2010,REGEN,2021/03/22,08:20,19:45,685,"LIEW YM,REGEN TEAM",-,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove P7,P8,P18 & P19 GVs and GV covers
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service all chambers and mv o-rings.
+> Perform kiv activities
+-Toluene canister weight-17.08KG
+- For Youtec (P19) & Hi-Ru(P8), vent adjacent chambers to see any leak over (Toh KC)
+- Evaluate No servcing of all GVs during Fast REGEN . Service Youtec adjacent GV and internal leak GV only.
+- Change P7GV Cover secure block to modify type. (Toh KC)
+- Change Load PP Robot body & Arm. (Use 1 Port type)(Toh KC)
+- Change Uld X-Fer robot body. (Use 1 Port type) (Toh KC)
+- Change CRC 2, 3, 4 and 7 compressor adsorbers. (Joshua)
+- Secure all UV lamp power box on top of chamber as per photo (Vincent Toh)
+- Remove P21 4 unit RMC driver.(Make sure RMC breaker is turn off before dismantle)
+- Check P19 Youtec Actual opening by engr. (Toh KC)
+- Check P19 F2 IP cable connector by Engr. (Toh KC)
+- Check P19 F2 youtec short circuit using mega meter once vent chamber. (toh KC)
+- Change Load BA gauge. (Toh KC)
+- Troubleshoot P11 shield bake unable to turn on issue (NGAI)
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Top up compressor.
+> Install all GVs and GV covers
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.OK
+> Perform external  leak check.OK
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 300s.
+> Monitor alignment. OK
+> Handover to Production
+
+===================================
+Regen IC : Liew YM
+HLL to P3 : Zhang Wei (Lum Seng Fei)
+P4 to P6 : Kong De Yi
+P7 to P9 : Yang Meng Hua
+P10 to P13 : Chan Sze Long
+C3 to P16 : Lin Zhong Guang
+P17 to VTC : Sun Xi Wen,Lin Ren Zhi,Li Peng
+GV: Jin Fei
+LD,ULD & P0 : Wilson,Tay KH,Feng Wei,Yap YM
+KIV: Tan Sin Choon,Liew Seng Eik
+
+
+
+P19 Youtec
+New : 06
+Old : 13
+
+Uld X-fer Robot
+New : 0704-10283
+
+LD PP robot
+New : 0606-10453
+Old : 0804-11434
+
+LD Arm
+New : SN 0804-11432
+Old : SN 0510-10396
+
+",20150023,2021/03/22,19:56:07,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/21,09:05,09:10,5,WONG TS,-,"> P11 R2 No Discharge.
+> Pause machine.
+> Manual test fire P11 target few cycle.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/03/21,09:15:32,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/21,12:55,13:15,20,"WONG TS,TAN CH",-,"P15 F2 no discharge
+- Resume & run. NG
+- Process active off LD
+- Clear all disk inside chambers
+- Test target short using multimeter. Yes
+- Vent P15 chamber
+- Clean up P15 target & chamber
+- Chnage P15 vacuum shields
+- Pump down & leak check
+- Test fire
+- Heat run
+
+scrap 100 pcs
+",20034189,2021/03/21,13:27:30,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/22,03:05,03:10,5,"PO,SUNTHRA,WANG,CI",P11 No discharge at HV-R2,"- Pause P11
+- Manual test fire OK
+- Resume run
+- Monitor
+- Handover
+
+Scrap 100pcs",20159986,2021/03/22,03:34:51,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/18,00:10,00:20,10,"SHAHID,JIAN FENG,PO,FARID",-,">> P5 F2 HV readout out of upper/lower limit
+>> Test fire.OK
+>> Resume run
+>> Handover
+
+Scrap disk : 100",20108743,2021/03/18,03:01:04,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/18,01:05,02:15,70,"SHAHID,JIAN FENG,PO,FARID",-,">> Input dummy due to P5 F2 firing readback unstable
+>> Swap F1 and F2 HV cable
+>> F2 still unstable
+>> Swap back HV cable
+>> Change P5 F2 CC link.NG
+>> Change P5 frontside controller.OK
+>> Handover
+
+Scrap disk : 0",20108743,2021/03/18,02:44:27,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2060,DROP DISK DETECTED AT C1,2021/03/25,20:30,20:45,15,"AH SENG,JIAN FENG,MING YONG,FARID",-,">> Drop disk detected at C1 POS2
+>> Found false alarm
+>> Resume run
+>> Handover
+
+Scrap disk : 100",20108743,2021/03/26,01:14:25,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2220,INVALID COMMAND @ ULD XFER,2021/03/16,07:45,07:50,5,"SHAHID,PO,SUNTHRA,WANG",-,"- ULD invalid command at X fer robot
+- Pause ULD
+- Home X fer robot
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/16,07:55:58,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2220,INVALID COMMAND @ ULD XFER,2021/03/20,18:20,18:25,5,FENG WEI,-,"> Invalid command of ULD X-fer Robot.
+> Pause & home the Robot.
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/03/20,19:09:36,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2654,SPT CONVEYOR HANG,2021/03/10,03:00,03:15,15,"SHAHID,PO,SUNTHRA,WANG",-,"- P10 Heater Main switch was turned off for process time limit over
+- ULD up/down conveyor cass never go up
+- Remove cass ok
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/10,03:57:30,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2654,SPT CONVEYOR HANG,2021/03/19,04:35,04:40,5,"AH SENG,JIAN FENG,PO,FARID",-,">> P10 Heater main switch was turned off for Process time limit over
+>> Found conveyor hang
+>> Resume error.OK
+>> Handover
+
+Scrap disk : 100
+",20108743,2021/03/19,05:27:13,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2656,TACT TIME UNSTABLE,2021/03/14,14:40,15:00,20,ONG JX,,"- Adjust Slow Rough Timing From 37.1s To 35.3s 
+- When Adjusting Slow Rough MAchine Aborted 
+- Resume Run And Monitor Slow Rough Timing Ok 
+- Scrap 100 Pic 
+- Hand Over Prod",20057089,2021/03/14,15:08:40,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2656,TACT TIME UNSTABLE,2021/03/26,17:50,17:55,5,CHAN SL,-,"> Production inform tact time slow.
+> Check & found LD supply disk slow.
+> Adjust LD slow rough timing from 36.7s to 35.6s.
+> Check tact time.Ok
+> Handover production.
+
+0 scrap disk
+
+",PDTA_20077706,2021/03/26,18:08:58,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/22,00:40,01:20,40,"PO,SUNTHRA,WANG,CI",ULD Invalid command was executed to X-ROBOT,"- Resume run NG
+- Pause ULD
+- Home ULD Xfer robot NG
+- Home using CDM NG
+- Fully stop
+- Home ULD Xfer robot OK
+- Vent LD and ULD
+- Remove disks on carrier and ULD chamber
+- Rough down 
+- Off LD
+- Clear disk
+- Dummy run
+- Monitor
+- Handover
+
+Scrap 100pcs",20159986,2021/03/22,01:37:36,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/24,19:35,19:45,10,ONG JX,-,"- P20 open interlock
+- Resume & run
+- Calibrate & zeroing P20 CM gauge
+- Resume & run
+
+
+scrap 100 pcs",20034189,2021/03/24,19:48:01,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/27,03:10,03:15,5,"AH SENG,JIAN FENG,PO,FARID",-,">> P20 Designated process is disabled due to opened interlock
+>> Monitor pressure.OK
+>> Resume run
+>> Handover
+
+Scrap disk : 100
+",20098241,2021/03/27,06:16:57,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/27,04:25,04:35,10,"AH SENG,JIAN FENG,PO,FARID",-,">> P20 Designated process is disabled due to opened interlock
+>> Zero P20 CM gauge.OK
+>> Resume run
+>> Handover
+
+Scrap disk : 100
+",20098241,2021/03/27,06:18:16,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/28,10:25,10:50,25,"TAN CH,LIEW YM",-,"ULC. Disk on the carrier error ,
+- Process active off LD
+- Clear all disk inside chambers
+- Continue dummy run
+- Monitor ULD alignment
+- Handover
+
+0 scrap disk
+",20034189,2021/03/28,11:37:27,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/03,12:45,13:30,45,"CHAN SL,WONG TS,NGAI",-,"> C2 rotation timeout.
+> Pause C2 & origin.NG
+> Reset rotation breaker.NG
+> Hold off & manual rotate. NG
+> Change C2 5 Phase Driver.Ok
+> Off LD process & clear disk.
+> Manual clear LD T-disk.
+> Handover production.
+
+Scrap 64pcs disk
+
+
+",PDTA_20077706,2021/04/03,13:44:06,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/09,13:30,14:45,75,"STEVEN C,ROY W,VINCENT T,ONG JX",-,"> Clear disk & fully stop machine
+> Collect P19 PQ data before Youtec change
+> Perform leak check on P19 youtec before youtec change. 
+> Air-exhaust youtec chamber 300sec.
+> Vent P2 to P5, P19 & ULD chamber.
+> Change ULD PUB.
+> Adjust LD alignment stn32 &35 pulse from 11800 to 12000
+> Change P3 & P5 target.
+> Change P2, P3, P4 & P5 vacuum shield.
+> Change P19 Youtec Gun.
+> Change carrier No.26, 27 & 28.
+> Pump down & leak check.Ok
+> Update youtec check list.
+> ULD cover leak
+> Service & clean ULD cover
+> Perform leak check. OK
+> Manual test fire P2 to P5 target.Ok
+> Handover production.
+
+Scrap 64pcs disk
+
+New P19 Gun : 06
+Old P19 Gun : 13
+
+
+
+
+
+",20034189,2021/03/09,15:27:35,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/16,09:00,09:50,50,"TAY KH,ONG JX,FIRDAUS",-,"> Clear disk & fully stop machine
+> Collect P19 PQ data before Youtec change
+> Air-exhaust youtec chamber 300sec.
+> Vent P2 , P19 & ULD chamber.
+> Change ULD PUB.
+> Change P2 vacuum shield.
+> Change P19 Youtec Gun.
+> Pump down & leak check.Ok
+> Update youtec check list.
+> Perform leak check. OK
+> Manual test fire P2 chamber
+> Handover production.
+
+
+
+New P19 Gun : 13
+Old P19 Gun : 06
+",20034189,2021/03/16,09:55:40,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/29,09:40,11:30,110,"LIEW SE,THONG KS,ONG JX,ROY W",-,"> R2 cathode broken. Early Youtec change.
+> Clear disk & fully stop machine
+> Air-exhaust youtec chamber 300sec.
+> Vent P2 to P5, P15, P19 & ULD chamber.
+> Change ULD PUB.
+> Change P3 & P5 target.
+> Change P2, P3, P4, P5 & P15 vacuum shield.
+> Change P19 Youtec Gun.
+> Pump down & leak check.Ok
+> Update youtec check list.
+> Manual test fire P2 to P5 & P15 target.Ok
+> Handover production.
+
+Scrap 64pcs disk
+
+New P19 Gun : 13
+Old P19 Gun : 06
+
+",20034189,2021/03/29,11:54:52,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/04/05,02:25,03:50,85,"SHAHID,CI,WANG,SUNTHRA",-,"- P19 F2 cathode broken
+- Check with multimeter Ng
+- Off LD process active
+- Clear disk in sputter
+- Vent P2,ULD & P19
+- Change P2 vacuum shields
+- Change ULD PUB
+- Change P19 Youtec
+- Pump down
+- Perform leak check
+- Found leak at P19 R1 flexible hose
+- Change Flexible hose
+- Perform leak check again ok
+- Heat run
+- Monitor
+- Handover
+
+old youtec - 06
+new youtec - 03",20034409,2021/04/05,05:41:37,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2663,ALIGNMENT MONITORING,2021/03/22,22:30,22:40,10,"SHAHID,PO,WANG",-,"- Monitor alignment
+- Pause LD side
+- Increrase Stn32 & 35 by 200 pulse
+- Home PP robot
+- Resume duumy run
+- Monitor
+- Handover",20034409,2021/03/22,22:45:53,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2663,ALIGNMENT MONITORING,2021/03/23,09:00,09:45,45,"TOH KIAN CHUAN,TAN CHEE  HONG,ONG JUN XIONG",-,"Monitor alignment(dummy run)
+Adjust LD PP 32&35  height lower 400 pulse.
+Adjust 31-36R retract 300 pulse.
+Adjust 33 & 36 height increase 500 pulse.
+Adjust 31 & 34 height increase 300 pulse.
+Observed Pos 1 in out & Pos 2 height higher. 
+Pos 2 intermittent bitting.
+Vent Load. Adjust alignment. Monitor OK.
+Handover.",20024000,2021/03/23,17:00:48,,,,
+B03,SPUTTER,E023,SPT,202,-,SM2663,ALIGNMENT MONITORING,2021/03/25,14:15,14:25,10,TOH KIAN CHUAN,-,"Alignment Monitoring
+Input dummy. 
+Adjust Load PP 32 & 35 increase 200 pulse from 10600 to 10800.
+Monitor OK.  Handover.",20024000,2021/03/25,14:31:28,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2010,REGEN,2021/03/24,08:20,17:30,550,"LIEW YAU MING,REGEN TEAM",-,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove P7,P8,P23,P24,C4& P26 GVs and GV covers
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service all chambers and mv o-rings.
+> Perform kiv activities
+-Toluene canister weight-13.08KG
+- Change P6 GV Cover secure block to modify type. (Toh KC)
+- Collect carrier force gauge data for all chambers. (Toh KC)
+- Change Load PP Robot body & Arm. (Toh KC)
+- Change P22 & P18 TDU. (Toh KC)
+- Secure all UV lamp power box on top of chamber (Vincent Toh)
+- Remove P28 4 unit RMC driver.(Make sure RMC breaker is turn off before dismantle)
+- Remove Load Lane 1 Stocker underneath washer and redo alignment. (Toh KC).
+- Check P16 & P17 using quick shield / normal shield. (Toh KC)
+- Disable P7, P15 & P16 Shield Bake. (Toh KC)
+- Collect PQ data for P26 Youtec Chamber before Regen. MV 10mm (Current), 8mm, 6mm
+- Change Load BA gauge. 
+- Change P14 TDU motor
+- Swap P13,P14,P15 and P16 HV cable.
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install all GVs and GV covers
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.OK
+> Perform external  leak check.OK
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 300s.
+> Monitor alignment. OK
+> Handover to Production
+
+===================================
+Regen IC : Liew yau ming
+HLL to P4 : Li peng
+P5 to P8 : Kong dy
+P9 to P13 : Chan SL
+P14 to C3 : Lin ZG
+P17 to P19 : Yang MH
+P20 to P22 : Sun XW
+P23 to VTC : Ji BIng,Lin RZ
+GV : Jin fei
+Ld :Feng Wei,Tay KH
+Uld, P0 : Yap YM,Wilson Chan
+KIV :Fred,ROY
+
+P24 Cap Etching
+New : CE-02
+Old : CE-01
+
+P26 Youtec
+New : 05
+Old : 18
+
+LD PP robot
+New : 1609CHE10795
+Old : 0606-13740
+
+LD Arm
+New : 0606-11083
+Old : 0606-12073
+
+
+",20150023,2021/03/24,17:52:18,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/16,00:00,00:05,5,"SHAHID,SUNTHRA,PO,WANG",-,"- P20 no dsicharge at HV R2
+- Pause P20 
+- Manual test fire ok
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/16,00:11:50,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/24,19:05,19:45,40,TAN CH,-,"- P23 R2 no discharge
+- Test target short. NO
+- Test fire. NG
+- Vent P23 chamber
+- Change P23 R2 tube shield
+- Pump down & leak check
+- Test fire
+- Heat run",20034189,2021/03/24,19:36:07,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2060,DROP DISK DETECTED AT C1,2021/03/25,14:40,14:45,5,CHAN SL,-,"> C1 Pos1 detect drop disk - Carrier No.32.
+> Change carrier No.32.
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/25,17:04:39,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2060,DROP DISK DETECTED AT C1,2021/03/25,18:55,20:00,65,CHAN SL,-,"> C1 Pos1 detect drop disk - Carrier No.31.
+> Clear disk & stop machine.
+> Vent LD & C1 chamber.
+> Clear LD/C1 19pcs drop disk & crack disk.
+> Found carrier No.31 Pos1 inner claw bend.
+> Change carrier No.31.
+> Adjust LD ARM-A Pos1 mechanical alignment.
+> Pump down & handover night shift.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/25,20:19:30,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2070,DROP DISK DETECTED AT C2,2021/03/25,17:25,17:30,5,CHAN SL,-,"> C2 Pos1 detect drop dsik - Carrier No.20.
+> Check Rot. alignment.Ok
+> Change carrier No.20.
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/25,19:57:38,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2080,DROP DISK DETECTED AT C3,2021/03/16,05:00,05:10,10,"SHAHID,PO,SUNTHRA,WANG",-,"- C3 Pos2 disk drop detect
+- Change carrier 26(new carrier)
+- Monitor alignment
+- Handover",20034409,2021/03/16,05:39:46,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2589,CARRIER STOP AT SHORT POSITION,2021/03/15,00:05,00:10,5,"SHAHID,PO,SUNTHRA,WANG",-,"- CTC  1091. Carrier stopped at the short position at transfer
+- Pause CTC
+- Jog carrier into position
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/15,01:15:33,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2637,RMC DOES NOT ROTATE,2021/03/14,14:50,14:55,5,ONG JX,P19 1095. RMC-F1 does not rotate.,"- Reset RMC Breaker Ok 
+- Resume Run Ok 
+-Scrap 150Pic
+- Hand Over Prod",20057089,2021/03/14,15:13:53,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2654,SPT CONVEYOR HANG,2021/03/10,03:15,03:25,10,"SHAHID,PO,SUNTHRA,WANG",-,"- P10 Heater Main switch was turned off for process time limit over
+- Conveyor LD side pos1 dummy cass slanted
+- Remove affected cass
+- Resume run
+- Monitor
+- Handover
+
+no scrap disk due to run dummy",20034409,2021/03/10,03:55:12,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/10,08:45,09:05,20,"FIRDAUS,TOH KC,TAN CH",-,"Check & adjust LD conveyor lane 1 lifter, stopper & clamper alignment
+- Homing conveyor
+- Handover
+",20034189,2021/03/10,09:48:27,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/10,11:40,12:05,25,TAN CH,-,"> Production request to swap back original controller after high power.
+> Swap below controller after high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Manual test fire & check at controller side.Ok
+> Handover production.
+
+0 scrap disk
+",20034189,2021/03/10,12:36:34,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/17,17:45,18:00,15,"FENG WEI,KOO SX",-,"> Production request to swap back original controller after high power.
+> Swap below controller after high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Manual test fire & check at controller side.Ok
+> Handover production.
+
+0 scrap disk
+
+
+
+
+",PDTA_20077706,2021/03/17,20:00:48,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/24,22:50,23:10,20,"SHAHID,PO,SUNTHRA,WANG",-,"- Clear disk
+- Swap P13 to P16 HV cable
+- Reset controller URF
+- Manual test fire ok
+- Heat run
+- Handover
+
+",20034409,2021/03/24,23:14:00,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/01,18:10,18:25,15,FENGWEI,-Swap cable,"- Clear disk
+- Swap P13 to P16 HV cable
+- Reset controller URF
+- Manual test fire ok
+- Heat run
+- Handover
+",20108743,2021/04/01,18:29:56,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/17,13:10,14:10,60,"FENG WEI,WONG TS,STEVEN CHUNG,CHAN SL,TOH KC",-,"> Clear disk & stop machine.
+> Collect P26 youtec chamber Ar PQ data :
+  - P26 F1   10sccm  :  7.6 E-2
+  - P26 F2   10sccm  :  7.6 E-2
+  - P26 R1   10sccm  :  7.6 E-2
+  - P26 R2   10sccm  :  7.5 E-2
+> Air-exhaust youtec chamber 300sec.
+> Vent HLL to P4, P7 & P26 chamber.
+> Change P2, P3, P4 & P7 vacuum shield.
+> Change P26 Youtec Gun.
+> Change Carrier No.4 to 7.
+> Pump down & leak check.Ok
+> Adjust transfer pulse HLL--->CTC & CTC--->C1.
+> Swap below controller for high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Update youtec check list.Ok
+> Manual test fire P2 to P7 & P13 to P16 target.Ok
+> Handover production.
+
+0 Scrap disk
+
+New P26 Gun : 18
+Old P26 Gun : 05
+",PDTA_20077706,2021/03/17,14:15:15,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/04/01,13:30,14:30,60,"FENG WEI,WONG TS,CHAN SL,WANG ZM,LI PENG",-,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Vent HLL to P4, P7, P12, P24 & P26 chamber.
+> Change P3, P4 & P12 target.
+> Change P2, P3, P4, P7 & P12 vacuum shield.
+> Change P24 Caps Etch Gun.
+> Change P26 Youtec Gun.
+> Change P26 MV Spacer from 10mm to 8mm.
+> Check MV sensor.Ok
+> Change Carrier No.4 to 10.
+> Pump down & leak check.Ok
+> Swap below controller for high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Update youtec check list.Ok
+> Manual test fire P2 to P7 & P12 to P16 target.Ok
+> Heat run with ON shield bake.
+> Handover production.
+
+0 Scrap disk
+
+New P24 Gun : CE-01
+Old P24 Gun : CE-02
+
+New P26 Gun : 18
+Old P26 Gun : 05
+",PDTA_20077706,2021/04/01,14:35:46,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/10,05:00,07:45,165,"SHAHID,PO,SUNTHRA,WANG",-,"- Prod feedback NK R1 low ard 1.36
+- Request for early youtec change
+- Clear disk
+- Perform leak check first for Youtec and P25(Heater) ok
+- Vent P2,P3,P4,P7 & P26(Youtec)
+- Change vacuum shields and youtec
+- Change P3 & P4 targets only
+- Pump down
+- Perform leak check
+- Swap P13 to pP16 HV cable
+- Reset controller
+- Perform manual test fire for required chamber
+- Heat run
+- Monitor
+- Handover
+
+old youtec 18
+new youtec 5",20034409,2021/03/10,07:42:43,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2663,ALIGNMENT MONITORING,2021/03/09,06:55,07:00,5,"SHAHID,PO,SUNTHRA,WANG",-,"- Prod req to check LD/ULD/Rot Alignment
+- Monitor alignment
+- Handover",20034409,2021/03/09,07:03:00,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2663,ALIGNMENT MONITORING,2021/03/25,09:40,10:10,30,"CHAN SL,WONG TS,TOH KC",-,"> Input 4 empty cassette & pause machine.
+> Vent P9 Rot. chamber.
+> Adjust Rot. Pos1 mechanical alignment.
+> Pump down & leak check.Ok
+> Adjust LD Both ARM Stn.32 & 35 increase 200 pulse.
+> Resume run & monitor alignment.Ok
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/25,11:15:22,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2663,ALIGNMENT MONITORING,2021/03/25,20:15,20:30,15,"AH SENG,JIAN FENG,MING YONG,FARID",-,">> Takeover from dayshift
+>> Dummy run
+>> Monitor LD, ROT and ULD alignment.OK
+>> Handover prod",20108743,2021/03/26,01:10:25,,,,
+B03,SPUTTER,E023,SPT,203,-,SM2663,ALIGNMENT MONITORING,2021/03/30,14:25,14:35,10,TOH KIAN CHUAN,-,"Monitor Alignment.(Front No T-disk, dummy run)
+Adjust Ld PP both arm retract 200 pulse.
+Adjust P9 Rot Pos 1 Up 1 down 20 pulse.
+Monitor OK. Handover.",20024000,2021/03/30,14:36:50,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2010,REGEN,2021/03/17,09:00,19:30,630,REGEN TEAM,Full Regen,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove all GVs and GV covers
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service all chambers, GVs, GV covers and mv o-rings.
+> Perform kiv activities
+   - Collect S-BAT vibration data - 3 cycles X. (NG Disconnected easily)
+   -Chg Unload X'fer Robot
+   -Swap Load with unload Ion Gauge & change unload rough valve
+   -Check and clean up unload vacuum gate 'O' ring housing for any blur
+   -Change UNLOAD TDU
+   -Service P28 oriffice,change o-ring and bearing
+   -Collect all carrier force data,change TDU motor if torque over 15N
+   -All chamber TDU greasing 
+   -Secure all UV lamp power box on top of chamber
+   -Adjust CTC Pos 3 pulse to close to C1 Pos 3 value & check HLL-CTC-C1 centering
+   -Remove P26 to P28 12 unit RMC driver
+   -Check P16 using quick shield
+   -Toluene canister weight : 16.22KG
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install all GVs and GV covers
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.NG
+   -P24 GV leak when vent
+> Perform external  leak check.NG
+   -C4 GV cover
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 3600s.
+> Monitor alignment. OK
+> Handover to Production
+==========================================
+Regen IC : Tan Sin Choon, Steven Chung
+HLL to P4 : Yang mh
+P5 to P8 : Kong dy
+C2 to P13 : Lin rz
+P14 to P17 : Liew se
+P18 to P22 : Tham ck
+P23 to VTC : Sun xw, Choong hy
+GV : Jin fei, Lin zg, Li peng
+Ld, Uld, P0 : Wang zm, Yap y m (Wilson Chan)
+KIV : Tan sc, Tan ch
+Rot : Chan sl
+
+P24 Cap Etching
+New : CE-05
+Old : CE-02
+
+P26 Youtec
+New : 19
+Old : 17",20003681,2021/03/17,17:50:44,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/06,20:15,21:40,85,"AH SENG,JIAN FENG,MING YONG,FARID",-,">> P13 R2 no discharge
+>>Test fire.NG
+>> Reset controller.NG
+>> Test for short.NG
+>> Clear disk and fully stop machine
+>> Vent P13
+>> No finding
+>> Found R2 HV cable short
+>> Change vac shield
+>> Change R2 HV cable
+>> Perform HV cable check.OK
+>> Test fire.OK
+>> Dummy run
+>> Handover
+
+Scrap disk : 0",20108743,2021/03/06,22:30:52,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/17,21:00,21:40,40,"SHAHID,JIAN FENG,PO,FARID",-,">> P19 F2 no discharge
+>> Test fire.NG
+>> Reset controller.NG
+>> Test short.NG
+>> Clear disk and fully stop machine
+>> Vent P19
+>> No finding
+>> Service chamber and plug in/out HV cable
+>> Test short.OK
+>> Pump down
+>> Test fire.OK
+>> Heat run
+>> Handover",20108743,2021/03/17,21:46:20,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/06,16:15,16:40,25,"FENG WEI,WONG TS",-,"> P18 HV-F1 readout is out off upper/lower limit.
+  - During high power.
+> Reset P18 Cc-link & controller. NG
+> Swap P18 F1/F2 HV-cable.
+  -  Error : P18 HV-F1 readout is out off upper/lower limit.
+> Swap back P18 F1/F2 HV-cable to original.
+> Change P18 F1 Cc-link.
+> Manual test fire P18 target.Ok
+> Handover production.
+
+0 scrap disk
+",PDTA_20077706,2021/03/06,17:03:06,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/06,17:45,18:10,25,"FENG WEI,WONG TS,NGAI",-,"> P18 HV-F1 readout is out off upper/lower limit.
+  - During high power.
+> Change P18 F1/R1 controller.
+> Manual test fire P18 target.Ok
+> Check & Change the controller setting.Ok
+> Handover production.
+
+0 scrap disk
+
+",PDTA_20077706,2021/03/06,19:20:09,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/18,01:30,02:40,70,"SHAHID,JIAN FENG,PO,FARID",-,">> ULD PP robot invalid command
+>> Found drop disk under PP robot
+>> Vent ULC and clear all drop disk
+>> Input dummy
+>> Monitor alignment
+>> Retract PP robot Arm A by 200 and Arm B by 350
+>> Monitor.OK
+>> Handover
+
+Scrap disk : 0",20108743,2021/03/18,02:47:27,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2510,COMPRESSOR FAILURE,2021/04/04,16:20,18:15,115,"ONG JX,TAN CH",-,"P21 cyropump temp error
+ 1st 93K
+ 2nd 17K
+- Purge & regen P21 cryopump
+- Heat run
+
+scrap 100 pcs",20034189,2021/04/04,18:49:48,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/26,10:50,11:00,10,WONG TS,-,"> Pause machine.
+  - During heat run
+> Change P26 MV Spacer from 11mm to 10mm.
+> Check MV sensor.Ok
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/26,10:47:12,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2589,CARRIER STOP AT SHORT POSITION,2021/04/02,12:25,12:35,10,WONG TS,-,"> Carrier No.32 stop short position at P18 chamber.( New Carrier )
+  - During dummy run
+  - Pos2 drop disk
+> P18 GV not fully open.
+  - Manual open/close.Ok
+> Resume run & monitor.
+> Carrier No.32 stop over position at P18 chamber.
+  - Pos2 drop disk.
+> Change Carrier No.32.
+> Monitor few cycle.Ok
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/04/02,12:59:02,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2642,WATER COOLING REMAINS OFF,2021/03/14,06:45,07:00,15,"JIAN FENG,AH PO,SUNTHRA,SENG",.,"..P11 R water cooling remain off
+..Adjust water pressure
+..Run and Monitor
+
+Scrap 150disk",20098241,2021/03/14,07:06:12,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2642,WATER COOLING REMAINS OFF,2021/03/16,01:30,02:20,50,"PO,WANG",-,"- P19 R1protection(cathode cooling water R) off under HV on.
+- Off LD process active
+- Clear disk in sputter
+- Clear T disk
+- Adjust P19 water flow rate
+- Dummy run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/16,03:25:55,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2654,SPT CONVEYOR HANG,2021/03/15,02:35,02:45,10,"PO,WANG",-,"- P10 1227. Heater main switch was turned off for Process time limit over. 
+- Found Sputter conveyor hang
+- Home conveyor ok
+- Resume run
+
+
+scrap 100pcs",20034409,2021/03/15,05:02:14,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/06,18:40,18:55,15,FENG WEI,-,"> Production request to swap back original controller after high power.
+> Swap below controller after high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Manual test fire & check at controller side.Ok
+> Handover production.
+
+0 scrap disk
+",PDTA_20077706,2021/03/06,19:22:04,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/11,00:20,01:10,50,"SHAHID,FARID,SUNTHRA,WANG,CI",-,"- P10 heater main switch was turned off for process time limit over
+- Check found LD PP robot hang at the extend position
+- Pause LD
+- Home PP robot via GOT Ng
+- Home via CDM robot able to home
+- Try home again with GOT not able to home
+- Off LD process active
+- Clear disk in sputter
+- Clear disk at LD side
+- Fully stop sputter
+- Home LD pp robot via GOT ok
+- Dummy run
+- Monitor
+- Handover
+
+scrap 70pcs",20034409,2021/03/11,02:18:12,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/11,06:50,07:10,20,"SHAHID,FARID",-,"- P10 heater main switch was turned off for process time limit over
+- Check found LD PP robot hang at the extend position
+- Pause LD
+- Home PP robot via GOT Ng
+- Home via CDM robot able to home
+- Try home again with GOT not able to home
+- Off LD process active
+- Clear disk in sputter
+- Clear disk at LD side
+- Fully stop sputter
+- Home LD pp robot via GOT ok
+- Dummy run
+- Monitor
+- Handover
+
+scrap 82pcs",20034409,2021/03/11,07:10:35,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/11,09:40,12:10,150,"FENG WEI,WONG TS,LUM SF,ZHANG JG,LIM TH",-,"> LD Alarm raised in the vacuum motor.
+> Use controller Home LD vacuum motor.Ok
+> Off LD process & clear disk.
+> Vent LD chamber.
+> Manual clear LD T-disk.
+> Check & found LD vacuum motor bearing jam.
+> Inform Engineer & activate early youtec change.
+> Air-exhaust youtec chamber 300sec.
+> Vent HLL to P4, P7 & P26 chamber.
+> Change P2, P3, P4 & P7 vacuum shield.
+> Change P26 Youtec Gun.
+> Change LD vacuum motor.
+> Change LD PLC IO4 card.
+> Change carrier No.12 to 18.
+> Pump down & leak check.Ok
+> Swap below controller for high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Update youtec check list.Ok
+> Manual test fire P2 to P4, P7 & P13 to P16 target.Ok
+> Handover production.
+
+Scrap 64pcs disk
+
+New P26 Gun : 17
+Old P26 Gun : 19
+",PDTA_20077706,2021/03/11,14:16:52,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/11,15:30,15:45,15,FENG WEI,-,"> Production request to swap back original controller after high power.
+> Swap below controller after high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Manual test fire & check at controller side.Ok
+> Handover production.
+
+0 scrap disk
+",PDTA_20077706,2021/03/11,16:30:27,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/15,14:45,14:50,5,LIEW YM,-,"HLL Alarm raised at the HV-R1 power. Turn OFF the AC main power.
+- Resume & run
+- Monitor
+- Continue production
+
+
+
+SCRAP 100PCS
+",20034189,2021/03/15,15:22:37,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/15,15:45,15:50,5,TAN CH,-,"HLL Designated process is disblaed due to opened interlock. ( carrier change )
+- Resume & run
+- Monitor
+- Continue production
+
+
+scrap 100 pcs
+",20034189,2021/03/15,15:52:34,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/18,00:00,00:15,15,"FARID,PO,CI,SHAHID",-,"- Clear disk
+- Swap back P13 to P16
+- Reset controller URF
+- Manual test fire ok
+- Heat run
+- Handover",20034409,2021/03/18,00:15:32,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/26,13:45,14:00,15,"CHAN SL,WONG TS",-,"> Production request to swap back original controller after high power.
+> Swap below controller after high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Manual test fire & check at controller side.Ok
+> Handover production.
+
+0 scrap disk
+",PDTA_20077706,2021/03/26,15:03:06,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/26,15:30,16:15,45,"CHAN SL,NGAI,LIM TH",-,"> P28 orifice valve readout is out of upper/lower limit.
+  - During dummy run.
+> Reset P28 MFC 2 Cc-link. NG
+> Change P28 Orifice controller.Ok
+  - Take from L211 P24 chamber.
+> On P28 process & monitor.Ok
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/27,08:53:42,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,02:10,02:20,10,"PO,SUNTHRA,WANG",Automatic driving process does not progress,"- Conveyor hang
+- Home conveyor
+- Input dummy
+- Resume run
+- Monitor
+- Handover
+
+Scrap 100pcs",20159986,2021/03/29,02:32:18,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,02:40,02:50,10,"PO,SUNTHRA,WANG",Automatic driving process does not progress,"- Conveyor hang
+- Home conveyor
+- Input dummy
+- Resume run
+- Monitor
+- Handover
+
+Scrap 100pcs",20159986,2021/03/29,03:17:01,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/03,20:40,21:00,20,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,">> Prod request to swap back P13 - P16
+>> Swapback P13 - P14 and P15 - P16 HV cables
+>> Test fire.OK
+>> Heat run
+>> Handover",20108743,2021/04/03,21:22:54,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/06,13:05,14:50,105,"FENG WEI,WONG TS,SUN XW,ZHANG JG,THAM CK,CHAN SL",-,"> ULD TCG or VAC SW was turn off in MV Open.
+  - Found ULD Vac.GV O-ring broken.
+> Inform line engineer & activate early youtec change.
+> Fully stop machine.
+> Vent LD & ULD chamber.
+> Change ULD Vac.GV O-ring.
+> Manual clear LD & ULD T-disk.
+> Pump down, Auto run & clear disk.
+> Air-exhaust youtec chamber 300sec.
+> Collect P26 youtec chamber Ar PQ line data with MV half open :
+  - P26  Ar   5sccm  : 3.8E-2
+  - P26  Ar   10sccm  : 7.8E-2
+  - P26  Ar   15sccm  : 1.1E-1
+  - P26  Ar   20sccm  : 1.5E-1
+  - P26  Ar   25sccm  : 1.9E-1
+> Vent HLL to P4, P7 & P26 chamber.
+> Change P2, P3, P4 & P7 vacuum shield.
+> Change P26 Youtec Gun.
+> Change ULD TDU motor.
+> Change carrier No.17 to 23.
+> Pump down & leak check. NG
+> HLL can't pump down.
+  - Service CTC & HLL chamber door. NG
+  - Service HLL GV.Ok
+> Pump down & leak check.Ok
+> Swap below controller for high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Update youtec check list.Ok
+> Manual test fire P2 to P7 & P13 to P16 target.Ok
+> Heat run & adjust ULD TDU motor vibration.Ok
+> Handover production.
+
+Scrap 64pcs disk
+
+New P26 Gun : 19
+Old P26 Gun : 17
+",PDTA_20077706,2021/03/06,17:18:29,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/26,09:00,10:00,60,"WONG TS,CHAN SL,CHAN WS,LI PENG,TAY KH,LIM TH",-,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Vent HLL to P4, P7, P9, C2 & P26 chamber.
+> Change P3 & P4 target.
+> Change P2, P3, P4 & P7 vacuum shield.
+> Change P26 Youtec Gun.
+> Adjust Rot. Pos1 mechanical alignment.
+> Change P20 BA Gauge.
+> Change carrier No.15 to 21.
+> Pump down & leak check.Ok
+> Swap below controller for high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Update youtec check list.Ok
+> Manual test fire P2 to P4, P7 & P13 to P16 target.Ok
+> Heat run with ON shield bake.
+> Handover production.
+
+0 scrap disk
+
+New P26 Gun : 17
+Old P26 Gun : 19
+",PDTA_20077706,2021/03/26,10:44:16,,,,
+B03,SPUTTER,E023,SPT,204,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/04/03,16:00,17:30,90,"CHAN SL,WONG TS,THAM CK,MOORHTY",-,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Vent HLL to P4, P26 & P28 chamber.
+> Stop P28 turbo pump.
+> Change P2, P3 & P4 vacuum shield.
+> Change P26 Youtec Gun.
+> Check P28 orifice condition. NG
+  - Adjust orifice plate alignment.Ok
+> Adjust P28 orifice coupling alignment.
+  - 90 degree during fully open.
+> Start P28 turbo pump.
+> Change carrier No.7 to 13.
+> Pump down & leak check.Ok
+  - Include P28 orifice.
+> Swap below controller for high power :
+  MDX 500           3K
+  P14    < --- >      P13
+  P16    < --- >      P15
+> Swap chamber HV-cable.
+> Reset P13 to P16 controller.
+> Update youtec check list.Ok
+> Manual test fire P2 to P4 & P13 to P16 target.Ok
+> Heat run with ON shield bake.
+> Handover production.
+
+0 scrap disk
+
+New P26 Gun : 19
+Old P26 Gun : 17
+
+",PDTA_20077706,2021/04/03,17:46:29,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2010,REGEN,2021/03/09,08:00,19:30,690,"LIEW YAU MING,REGEN TEAM",-,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove all GVs and GV covers.
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service all chambers, GVs, GV covers and mv o-rings.
+> Perform kiv activities
+- Toluene canister weight-11.58KG
+- Chg all chamber RMC coupling (LIM TH)
+- Swap Load with P3 TDU motor - Lim TH
+- Lay Spt DC controller Cable and Rotation Box Cable below flooring. (Firdaus)
+- All Chamber TDU greasing. -Koo
+- Collect all chambers pulling force,change TDU motor if torque over 15N. (Koo)
+- Reset conveyer power supply .
+- Secure all UV lamp power box on top of chamber as per photo (Vincent Toh)
+- P21 MV spacer change from 3mm to 2mm - Lim TH
+- Swap LD and P3 TDU motor
+- Change P8 Pos2 Controller (F2,R2)
+- Change P3 heater (momentive) cathode 1set
+- Change P5 BA gauge
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install all removed GVs and GV covers
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.OK
+> Perform External leck check . OK
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 300s
+> Monitor alignment
+> Handover to Production
+==================================
+Regen IC : Liew yau ming
+HLL to P8 : Yang mh, Kong dy ( Koh CH)
+P9 to P12 : Thong KS
+C3 to P19 : Wilson
+P20 to P23 : Yap YM
+P24 to VTC :  Lin RZ, Sun xw
+GV : Jin fei,Zhang JG
+Ld, Uld, P0 : Wang ZM
+KIV : Steven,Roy,LSE
+
+P24 Cap etching
+New : CE-07
+Old : CE-07
+
+P26 Youtec
+New : 01
+Old : 02
+",20067230,2021/03/09,19:43:53,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2010,REGEN,2021/04/01,08:30,20:00,690,REGEN TEAM,-,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove all GVs and GV covers.
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service  chambers, GVs, GV covers and mv o-rings from P23 to P26
+> Perform kiv activities
+-  GV tension measurement
+-  Set P0 & VTC initial setting to no GV, no need install GV flange also 
+-  Chg all P28 ICP quartz glass panels 
+-  Chg P15,17,21,22 UV glass panel to quartz type 
+-  Retake P0 & P3 TDU pulling force,change P0 TDU motor P3 6.8N and P0 8.7N
+-  Chg P8 to thin water jacket(Ver 2) 20mm 
+-  Unload Sub chamber disk slanted after disk expand,do the sub chamber alignment
+-  Change all heater connector head to shorter screw 
+-  Service P27 orifice 
+-  Record down Toluene canister weight & key inside SPT report  10.62Kg
+-  Load & Uld PP robot try back application 486 by Engr. check and find tube the load unload    aligment
+-  P28 MFC 2 install back 300sccm N2 MFC 
+-  Change compressor CRC 5 New 27P08099E   Pld 27P12006E
+-  Readjust P26 FCVD slidling MV actual opening to 90mm & measure knob distance  22.06mm
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install GVs and GV covers from P23 to P26
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Change P23 UV lamp
+> Perform internal leak check.OK
+> Perform External leck check . NG
+-  Found P5 Vent valve leak,Change gasket.ok
+-  Found P4,P8 and P14 cryopump relief leak,service relief valve.ok
+-  Found  unload ATM face plate leak.Change o ring
+> Prod request change P26 youtec slot bias parameter setting
+   Fn2 Time from 1570 change to 1370 and Fn4 Time  from 770 to 570
+> Handover to night shift
+==================================
+Regen IC : Tan S C
+HLL to P6 : Zhang Wei,Li Peng ( Koh CH )
+P7 to P10 : Chan S L
+P11 to P13 : Kong D Y
+P14 to P16 : Yang M H
+C3 to P19 : Moorthy
+P20 to P23 : Lin R Z
+P24 to VTC :Ji Bing, Sun xw
+GV : Wang Z M
+Ld, Uld, P0 : Yap Y M,Wilson Chan
+KIV : Choong H Y,Ong J X,Liew S E
+
+P24 Cap etching
+New : CE-06
+Old : CE-08
+
+P26 Youtec
+New : 04
+Old : 07
+",20003772,2021/04/01,19:56:01,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2010,REGEN,2021/04/01,20:15,21:30,75,"TENG HUAN,PO,MINGYONG,FARID",-,">> Dayshift perform LD alignment.OK
+>> Perform leak check for LD and ULD.OK
+>> Heat run
+>> Handover
+",20108743,2021/04/02,07:53:10,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/16,19:30,20:00,30,"TAN CH,ONG JX",-,"- P8 F1 no discharge
+- Reset controller & cc-link
+- Process active off LD
+- Clear all disk inside chamber
+- Test for target short using multimeter. Yes
+- Handover to night shift
+
+scrap 100 pcs",20034189,2021/03/16,19:56:37,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/16,20:00,20:30,30,"SHAHID,PO,SUNTHRA,WANG",-,"- Continue from day team
+- P8 No discharge at HV F1
+- Vent P8
+- No abnormalities found
+- Change vacuum shields
+- Change carrier 11
+- Pump down
+- Manual test fire ok
+- Heat run handover",20034409,2021/03/16,23:20:41,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/16,21:05,22:00,55,"SHAHID,PO,SUNTHRA,WANG",-,"- P6 No discharge at HV - F2
+- Pause P6
+- Manual test fire Ng
+- Multimeter check Ng
+- Clear disk
+- Vent P6
+- No abnormalities found
+- Change vacuum shields
+- Pump down
+- Manual test fire ok
+- Dummy run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/16,23:22:47,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/18,11:10,12:20,70,"FENG WEI,NGAI,TOH KC",-,"> P13 R1 No Discharge.
+> Manual test fire P13 target. NG
+> Use multimeter test short circuit. No Short
+> Reset P13 Cc-link & controller. NG
+> Off LD process & clear disk.
+> Swap P13 R1 & R2 HV- Cable.
+  - P13 R1 No Discharge.
+> Manual clear LD T-disk.
+> Change P13 Pos1 controller.
+> Check & change P13 Pos1 controller setting.Ok
+> Manual test fire P13 target.Ok
+> Handover production.
+
+Scrap 64pcs disk
+",PDTA_20077706,2021/03/18,12:57:00,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/31,01:10,01:15,5,"SHAHID,PO,SUNTHRA,WANG",-,"- P2 HV Bias/Etch no discharge
+- Pause P2
+- Manual test fire ok
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/31,01:20:26,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/31,13:45,13:50,5,"FENG WEI,WONG TS",-,"> P12 F1 No Discharge.
+> Manual test fire.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/03/31,13:50:49,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/10,08:30,08:40,10,"ONG JX,VINCENT T",-,"P2 Hv bias readout is out of upper/lower limit
+- Manully test fire. OK
+- Resume & run
+- Continue dummy run",20034189,2021/03/10,09:50:22,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/22,15:00,15:05,5,ONG JX,-,"P2 Readout of HV-BIAS/ETCH from the monitor is out of the upper/lower limit.
+> Pause machine.
+> Manual test fire.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+
+Scrap 100 disks
+",20034189,2021/03/22,15:20:47,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/04/04,21:40,21:45,5,"SHAHID,CI,WANG,SUNTHRA",-,"- P2 Readout of HV - bias/etch from the monitor is out of the upper/lower limit
+- Pause P2
+- Manual test fire ok
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/04/05,00:50:02,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/04/05,04:10,04:15,5,"SHAHID,CI,WANG,SUNTHRA",-,"- P2 readout of HV- bias/etch from the monitor is out of the upper/lower limit
+- Pause P2
+- Manual test fire ok
+- Reset P2 controller
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/04/05,04:38:28,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/04/06,07:00,07:05,5,"SHAHID,FARID,SUNTHRA,WANG",-,"- P2 readout of HV bias/etch from the monitor is out of the upper/lower limit
+- Pause P2
+- Manual test fire ok
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/04/06,07:21:10,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2032,HV BIAS/ETCH OUT OF LIMITS,2021/03/27,22:15,22:20,5,"AH SENG,JIAN FENG,PO,FARID",-,">> P2 HV bias out of upper/lower limit
+>> Test fire.OK
+>> Resume run
+>> Monitor.OK
+>> Handover
+
+Scrap disk : 100",20108743,2021/03/27,22:23:16,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2032,HV BIAS/ETCH OUT OF LIMITS,2021/04/02,19:10,19:15,5,WONG TS,-,"> P2 HV-Bias/Etch readout is out of upper/lower limits.
+  - During dummy run.
+> Manual test fire.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/04/02,19:24:18,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2032,HV BIAS/ETCH OUT OF LIMITS,2021/04/05,17:30,17:35,5,WONG TS,-,"> P2 HV-Bias/Etch readout is out of upper/lower limits.
+> Reset P2 Bias Cc-link & controller.
+> Check controller setting.Ok
+> Resume run & monitor.Ok
+> Inform Engineer - KIV change P2 Bias controller.
+> Handover production.
+
+Scrap 50pcs disk
+",PDTA_20077706,2021/04/05,17:43:52,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2276,ULD ATM GV NOT FULLY OPENED,2021/03/30,10:15,13:50,215,"LIM TH,ONG JX,LIEW YM,NGAI YC,TOH KC,YAP YM,TAY KH",-,"ULC. SUB-CH atmospheric GV is not fully opened 
+- Resume & run. NG
+- Check sensor . OK
+- Vent ULD & P28 chamber
+- Stop P28 turbo pump
+- Manually open/closed ULD Atm GV. NG
+- Change new ULD ATM GV
+- Manually open/close. OK
+- Check & adjust ULD ATM GV open/close timing. OK
+- Service P28 orifice  ( Change P28 orifice shaft )
+- Start P28 turbo pump
+- Check & adjust ULD epson robot alignment
+- Pump down & leak check
+- Heat run
+
+scrap 100 pcs
+",20034189,2021/03/30,16:14:55,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2653,CARRIER LOCK ERROR,2021/03/09,20:35,21:05,30,"SHAHID,PO,SUNTHRA,WANG",-,"- ULD carrier remain unlocked
+- Resume run Ng
+- Check found Sensor Ng
+- Change sensor ok
+- Resume run
+- Monitor
+- Handover",20034409,2021/03/09,21:13:55,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2654,SPT CONVEYOR HANG,2021/03/23,16:35,16:45,10,"ONG JX,TAN CH",-,"spt conveyor hang
+- Homing spt conveyor
+- Resume & run
+- Monitor 
+- Handover
+
+0 scrap disk",20034189,2021/03/23,18:55:43,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2656,TACT TIME UNSTABLE,2021/04/04,14:40,15:20,40,ONG JX,-,"- Input dummy and adjust slow rough
+- Pph 2011 (Uniform complete and R.Pump Complete 2E1Pa).
+- Monitor
+- Handover",20034189,2021/04/04,19:27:43,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/10,14:25,15:00,35,LIM TH,N2 content abnormal,"Line inform abnormal N2 result.
+Check and fine tune P28 ICP.
+Monitor Vpp, light & Pr OK.
+Handover",PDER_20034220,2021/03/10,16:46:04,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/12,09:55,10:15,20,"FENG WEI,WONG TS",- Guzik result not good,"> Production request to change controller.
+> Clear disk & heat run.
+> Change P10 Pos2 controller.
+> Check controller setting.Ok
+> Perform functional test for P10 & P11 chamber.Ok
+> Zeroing P7 CM Gauge.
+> Handover production.
+
+0 scrap disk",PDTA_20077706,2021/03/12,10:36:25,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/15,17:35,19:00,85,"ONG JX,TAN CH,VINCENT T",-,"P17 Error occurred in the GAS1 MFC 
+- Resume & run. NG
+- ULD disk on carrier. 
+- Fully stop machine
+- Clear all disk inside chambers
+- Change P17 MFC cc-link
+- Process acitve on P17 . OK
+- Heat run
+
+
+scrap 100 pcs
+",20034189,2021/03/15,19:49:12,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/16,12:20,12:45,25,"ONG JX,TAN CH",-,"- conveyor alarm
+- Disk remain at cassette after epson robot pick up disk
+- Clear all disk
+- Resume & run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034189,2021/03/16,18:51:10,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/25,01:00,03:10,130,"SHAHID,PO,SUNTHRA,WANG",-,"- MIT req to input S bat
+- Clear disk
+- Input s bat
+- Vent P8 
+- Found F2&R2 target crack
+- Change F2&R2 targets only
+- Change F2&R2 water jacket
+- Change Vacuum shields
+- Pump down
+- Manual test fire ok
+- Heat run
+- Handover",20034409,2021/03/25,03:38:12,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/25,04:10,04:20,10,"SHAHID,PO,SUNTHRA,WANG",-,"- P3 MV is not at half opened position
+- Adjust MV sensor position
+- Resume run
+- Monitor
+- Handover",20034409,2021/03/25,05:50:10,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/25,16:50,16:55,5,WONG TS,-,"> Dummy run & check Youtec Bias slope setting.
+> Off Youtec process.
+> Check Youtec Bias slope setting.Ok
+> Handover production.
+
+0 Scrap disk
+
+",PDTA_20077706,2021/03/25,17:02:09,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/27,06:00,06:15,15,"AH SENG,JIAN FENG,PO,FARID",-,"..Main PC Auto shutdown
+..Restart Main PC
+..Run and Monitor",20098241,2021/03/27,06:21:57,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/27,07:30,08:00,30,"AH SENG,JIAN FENG,PO,FARID",-,">> Sputter main PC shut down
+>> Handover dayshift
+",20108743,2021/03/27,07:55:19,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/28,04:45,04:55,10,"AH SENG,JIAN FENG,PO,FARID",-,">> P5 pressure protection error
+>> Check pressure.OK
+>> Resume run
+>> P4 pressure protection error
+>> Check P4 and P5 for any abnormalities.OK
+>> Resume run
+>> Handover
+
+Scrap disk : 150",20108743,2021/03/28,05:02:14,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,19:00,19:10,10,TAN CH,-,"P28 Readout of HV-F1 from Vpp monitor out of upper/lower limit.
+- Pause P28 chamber
+- Calibrate & zeroing P28 CM gauge
+- Resume & run
+- MOnitor
+- Handover
+
+0 scrap disk
+",20034189,2021/03/29,19:10:06,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,20:30,20:35,5,"SHAHID,PO,SUNTHRA,WANG",-,"- P28 Readout of F1/F2/R1/R2 light sensor from the monitor is out of the upper/lower limit
+- Pause P28
+- Zero CM 
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/30,06:31:55,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,20:55,22:00,65,"SHAHID,PO,SUNTHRA,WANG",-,"- P28 Gas 2 flow out of range
+- P28 Readout of F1/F2/R1/R2 light sensor from the monitor is out of the upper/lower limit
+- Resume run Ng
+- Off LD process active
+- Clear disk in Sputter
+- Reset MFC CC link
+- Offset CM value
+- Dummy run
+- Monitor
+- Prod feedback PMS no tracebility
+- Reset Main and Server PC
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/30,06:32:30,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,23:30,01:45,135,"SHAHID,PO,SUNTHRA,WANG",-,"- P28 Readout of F1/F2/R1/R2 light sensor from the monitor is out of the upper/lower limit
+- Input dummy 
+- Half stop sputter
+- Perform CM gauge factory reset
+- Zero & Offset CM
+- Resume dummy run
+- Adjust P28 layer 1 orifice with Process help
+- Monitor Ng
+- Clear disk
+- Change P28 CM gauge
+- Perform internal and external leak check
+- Found leak at P28 CM gauge area
+- Change Gasket X2 Ng
+- Change another CM gauge ok
+- Dummy run
+- Monitor
+- Reset URF Zone PC due to Prod feedback PMS no readback
+- Handover
+
+scrap 100 pcs",20034409,2021/03/30,06:31:31,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/30,03:05,04:25,80,"SHAHID,PO,SUNTHRA,WANG",-,"- P28 Readout of F1/F2/R1/R2 light sensor from the monitor is out of the upper/lower limit
+- Off LD process active
+- Clear disk in sputter
+- Change P28 MFC(N2)
+- Zero CM & offset value
+- Dummy run 
+- Monitior
+- Handover
+
+scrap 100 pcs",20034409,2021/03/30,06:29:58,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/30,05:05,05:55,50,"SHAHID,PO,SUNTHRA,WANG",-,"- P28 Readout of F1/F2/R1/R2 light sensor from the monitor is out of the upper/lower limit
+- Off LD process active
+- Clear disk in sputter
+- Change P28 MFC1 CC link
+- Dummy run
+- Monitor
+- handover
+
+scrap 100 pcs",20034409,2021/03/30,06:30:50,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/30,06:35,06:40,5,"SHAHID,PO,SUNTHRA,WANG",-,"- P28 Readout of F1/F2/R1/R2 light sensor from the monitor is out of the upper/lower limit
+- Adjust P28 Layer 1 orifice
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/03/30,06:50:47,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/04,10:50,11:00,10,ONG JX,Prod Request to Change Slop Bias Setting,"-  Check And Change Slop Bias Setting 
+- Change FN 4 From 570 To 770
+- Hand Over Prod 
+- Scrap 0",20057089,2021/04/04,11:05:17,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/04,12:45,13:00,15,"ONG JX,TAN CH",-,"- Perform S-Bat camera 
+",20034189,2021/04/04,13:19:13,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/04,13:30,14:20,50,ONG J X,Prod Request To Change MV Spacer And Slop Bias Setting,"- Change P8 Mv Spacer From 0.8mm to 0.6mm To 0.4mm to 0mm
+- P10 Mv Spacer From 0.5mm to 0.2mm to 0mm
+-  Change Slop Bias Setting FN 4 770 to 570 
+- Hand Over Prod 
+Scrap 0",20057089,2021/04/04,14:23:35,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/04,16:50,17:25,35,"TAN CH,ONG JX",-,"- Change P8 Mv Spacer to 0.8mm
+- Change P10 Mv Spacer to 0.5mm 
+- Change Slop Bias Setting FN 4 570 to 770
+- Hand Over Prod
+Scrap 0
+",20034189,2021/04/04,19:30:47,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/21,13:30,14:45,75,"WONG TS,TAN SC,TAN CH,LIEW YM",-,"- Fully stop machine
+- Vent ULD, P2, P19, P24 & P26 chambers
+- Change ULD PUB
+- Change P24(Cap etch & P26(Youtec)
+- Change P2 & P19 vacuum shields
+- Change P2 targets
+- Pump down
+- Perform leak check
+- Manual test fire P2 & P19 ok
+- Heat run
+- Handover
+
+
+old youtec - 02
+new youtec - 04
+
+old Cap etch - CE08
+new Cap etch - CE08
+",20034189,2021/03/21,15:22:37,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/27,09:15,11:40,145,"FENG WEI,WONG TS,STEVEN CHUNG,TAN SC",-,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Perform actual pump life parameters set data.
+> Collect All chamber PQ line data.
+> Copy TDU driver setting from P1 to LD & ULD chamber.
+> Vent P19, P24 to P26 & ULD to HLL chamber.
+> Stop P26 turbo pump.
+> Change P19 vacuum shield.
+> Change P24 Caps Etch Gun filament.
+> Change P26 Youtec Gun.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Adjust & check P26 sliding MV half open to 90mm.
+> Start P26 turbo pump.
+> Change Carrier No.14 to 20.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P19 target.Ok
+> Handover production.
+
+0 scrap disk
+
+New P24 Gun : CE-08
+Old P24 Gun : CE-08
+
+New P26 Gun : 07
+Old P26 Gun : 04
+",PDTA_20077706,2021/03/27,12:49:36,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/15,21:35,23:35,120,"SHAHID,PO,SUNTHRA,WANG",-,"- P26)Youtec) R2 cathode broken
+- Check with multimeter Ng
+- Off LD process active
+- Clear disk in sputter
+- Clear T disk at LD side
+- Handover MIT to do Singlelayer first
+- Vent ULD, P19,P24,P26
+- Change ULD PUB
+- Change P24(Cap etch & P26(Youtec)
+- Change P19 vacuum shields
+- Change P19 UV view port to Quartz type
+- Pump down
+- Perform leak check
+- Found minor leak at P26 F2
+- Vent service O ring
+- Pump down 
+- Perform leak check again ok
+- Manual test fire P19 ok
+- Heat run
+- Handover
+
+scrap 100 pcs
+
+old youtec - 01
+new youtec - 02
+
+old Cap etch - CE07
+new Cap etch - CE08",20034409,2021/03/15,23:52:16,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2665,IMPROVEMENT & MODIFICATION,2021/03/25,11:00,11:05,5,WONG TS,-,"> Production request to change Youtec Bias slope setting.
+> Off Youtec process.
+> Change FN2 time from 1570ms to 1370ms.
+> Handover production.
+
+0 Scrap disk
+
+",PDTA_20077706,2021/03/25,11:21:39,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2665,IMPROVEMENT & MODIFICATION,2021/03/25,11:30,11:35,5,LIM TH,-,"> Production request to change Youtec Bias slope setting.
+> Off Youtec process.
+> Change FN4 time from 770ms to 670ms.
+> Change FN6 time from 670ms to 570ms.
+> Handover production.
+
+0 Scrap disk
+
+",PDTA_20077706,2021/03/25,12:31:33,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2665,IMPROVEMENT & MODIFICATION,2021/03/25,12:00,12:05,5,CHAN SL,-,"> Production request change Youtec Bias slope setting to original.
+> Off Youtec process.
+> Change FN2 time from 1370ms to 1570ms.
+> Change FN4 time from 670ms to 770ms.
+> Change FN6 time from 570ms to 670ms.
+> Handover production.
+
+0 Scrap disk
+
+",PDTA_20077706,2021/03/25,12:34:18,,,,
+B03,SPUTTER,E023,SPT,205,-,SM2665,IMPROVEMENT & MODIFICATION,2021/03/29,14:30,14:35,5,"LIM TH,STEVEN LOO",VHF settings change,"Request by Process Engineer
+Chg P27 VHF pulse rate 35 to 6",PDER_20034220,2021/03/29,16:25:52,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2010,REGEN,2021/03/13,08:30,19:30,660,REGEN TEAM,Fast Regen,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove all GVs and GV covers
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service all chambers, GVs, GV covers and mv o-rings.
+> Perform kiv activities
+   -Collect S-BAT vibration data - 3 cycles X
+   -Secure all UV lamp power box on top of chamber as per photo
+   -Install P27 with 50mm shield
+   -Chg P23 TDU
+   -Remove P28 3 unit RMC driver.
+   -Perform P27 bias cylinder linear guide bearing greasing
+   -Change P23 TM spacer from 56mm to 54 mm(Requested by CS LOW)
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install all removed GVs and GV covers
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.OK
+> Perform External leck check . NG
+   -Ld Vac GV bellow leak
+   -P8 and P9 GV cover leak
+   -P8 adjust GV block
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 300s
+> Monitor alignment
+> Handover to Production
+===================================
+Regen IC : Tan Sin Choon, Steven Chung
+HLL to P4 : Yang mh
+P5 to P9 : Tham ck
+C2 to P13 : Liew se
+P14 to P17 : Choong hy / Ong jx
+P18 to P22 : Roy wee
+P23 to VTC : Sun xw, Zhu xh
+Gv : Jin fei, Chan sl, Liew ym
+KIV : Tan sc, Tan ch, Choong hy
+Ld, Uld, P0 : Wilson Chan, Yap ym
+
+
+P24 Cap Etching
+New : CE-06
+Old : CE-06
+
+P26 Youtec
+New : 11
+Old : 10
+
+Ld vac GV cylinder
+New : V103669-14
+Old : V062511-12
+
+",20003681,2021/03/13,17:24:57,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2010,REGEN,2021/04/05,08:30,19:00,630,REGEN TEAM,Fast regen,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove P23 to P0 gate valve and gate cover
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service all chambers, GVs, GV covers and mv o-rings.
+> Perform kiv activities
+   -Change Load vacuum motor
+   -Change P27 VHF bias Silver strip
+   -Change C4 Ba guage
+   -Change all heater connector head to shorter screw
+   -Activate P10 CM guage
+   -Check and adjust CTC transfer pulse alignment ( Adjust Pos 3 Pulse )
+   -Check all R2 RMC condition ( Change P5 & P7 Coupling )
+   -Troubleshoot HLL C sensor due to readback low
+   -Change Toluene supply to canister and relay heater wire
+   -Chg P15 TDU
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install all P23 to P0 gate valve and gate cover
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.OK
+> Perform External leck check . NG
+   - P4 Front dowel pin leak
+   > Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 3600s
+> Monitor alignment
+> Handover to Production
+===================================
+Regen IC : Liew Yau Ming
+HLL to P4 : Zhang Wei
+P5 to P7 : Li Peng
+P8 to P11 : Lin ZG
+P12 to P14 : Yang MH
+P15 to P17 : Moorthy
+P18 to P20 : Zhu XH
+P21 to P23 : Chan WS
+P24 to VTC : Sun xw, Lin RZ, Kong DY
+Gv : Jin fei
+KIV : Roy Fred
+Ld, Uld, P0 : Koh CH, Yap ym, Tay KH
+
+
+P24 Cap Etching
+New : CE-03
+Old : CE-03
+
+P26 Youtec
+New : 11
+Old : 08
+",20067301,2021/04/05,19:16:11,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/21,04:40,04:50,10,"AH SENG,JIANFENG,SUNTHRA,MINGYONG",-,"- P8 No discharge at HV-R2
+- Pause machine & manual test fire P8 target few cycle.Ok
+- Resume run & monitor.Ok
+- Handover production
+
+ Scrap 150 disk
+",20159974,2021/03/21,05:03:56,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/28,23:25,23:35,10,"PO,SUNTHRA,WANG",P13 F1 no discharge,"- Pause P13
+- Manual test fire OK
+- Resume run
+- Monitor
+- Handover
+
+Scrap 100pcs",20159986,2021/03/29,00:15:56,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/29,03:45,03:55,10,"PO,SUNTHRA,WANG",-,"- Pause P13
+- Manual test fire OK
+- Resume run
+- Monitor
+- Handover
+
+Scrap 100pcs
+",20159986,2021/03/29,07:50:50,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/01,10:10,10:15,5,FENG WEI,-,"> P13 F1 No Discharge.
+> Manual test fire.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/04/01,10:13:29,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/01,18:45,18:50,5,FENGWEI,-,"> P12 R1 No Discharge.
+> Manual test fire.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",20108743,2021/04/01,18:52:35,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/02,20:15,20:25,10,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,">> P12 R1 no discharge
+>> Test fire.OK
+>> Resume run
+>> Handover
+
+Scrap disk : 100",20108743,2021/04/02,21:15:50,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/03,00:05,00:15,10,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,">> P12 R1 no discharge
+>> Reset P12 controller and cc link
+>> Resume run
+>> Handover
+
+Scrap disk : 150",20108743,2021/04/03,01:03:23,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/04,10:30,10:35,5,ONG JX,-,"P12. No discharge at HV-F1
+- Pause P12 chamber
+- Manually test fire.OK
+- Resume & run
+- Monitor
+- Continue production
+
+Scrap 100pcs
+",20034189,2021/04/04,19:29:28,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/04,12:30,12:45,15,ONG JX,-,"P12 F1 no discharge
+- Reset controller & cc-link
+- Resume & run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034189,2021/04/04,13:21:09,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/05,00:35,00:40,5,"SHAHID,CI,WANG,SUNTHRA",-,"- P13 F1 no discharge
+- Pause P13
+- Manual test fire ok
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/04/05,00:51:19,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/05,05:10,05:15,5,"SHAHID,SUNTHRA,WANG,CI",-,"- P13 F1 no discharge
+- Pause P13
+- Manual test fire ok
+- Resume run
+- Monitor
+- Handover
+
+scrap 100 pcs",20034409,2021/04/05,05:18:17,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2040,PROCESS CONDITIONING LOW YIELD,2021/03/31,09:10,09:30,20,"FENG WEI,WONG TS",- R2 ROW sector overwrite high,"> Engineer request to change P22 Pos2 controller.
+> Dummy run & off process P22 chamber.
+> Change P22 Pos2 controller.
+> Check P22 Pos2 controller setting.Ok
+> Perform P22 chamber functional test.Ok
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/31,10:58:13,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2070,DROP DISK DETECTED AT C2,2021/03/26,13:10,15:25,135,"CHAN SL,WONG TS,NGAI",-,"> C2 Pos2 detect drop disk - Carrier No.22.
+> Off LD process & clear disk.
+> Manual clear LD T-disk.
+> Wait S-Bat camera battery charge.
+> Insert S-Bat camera check.
+  - Found drop disk at P9 heater.
+> Vent P9 heater & clear 2pcs drop disk.
+> Check CCTV & found double disk before sputter.
+> Change Carrier No.22, 25 & 26.
+> Pump down & leak check.Ok
+> Handover production.
+
+Scrap 64pcs disk
+",PDTA_20077706,2021/03/26,15:56:49,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2070,DROP DISK DETECTED AT C2,2021/03/26,18:00,18:05,5,"CHAN SL,WONG TS",-,"> C2 Both Pos detect drop disk - Carrier No.27. ( False Alarm )
+> Found error because carrier change.
+  - Change carrier never select ( Carrier without disk mode )
+> Reset C2 drop disk Alarm.
+> Resume run & handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/03/26,18:14:04,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2340,ID SCRATCH,2021/03/15,14:20,14:55,35,"NGAI,ONG JX",,"- Input Dummy 
+- Reduce  ULD Arm B T 30 Pulse  
+- Retract Stn 31 to 36 400 Pulse 
+- Resume Run And Monitor 
+- Scrap 0",20057089,2021/03/15,15:07:22,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2590,CARRIER STOP AT OVER POSITION,2021/03/15,23:25,23:30,5,"SHAHID,PO,SUNTHRA,WANG",-,"- C1 carrier stopped at the over position at transfer
+- Pause C1 jog carrier into position
+- Happen at carrier 9 (new carrier)
+- Pause ULD
+- ULD Arm B stn32 & 35 down by 200 pulse
+- Home ULD pp robot
+- Resume run
+- Monitor 
+- Handover
+
+scrap 100 pcs",20034409,2021/03/15,23:54:27,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2590,CARRIER STOP AT OVER POSITION,2021/04/06,08:15,09:15,60,"FENG WEI,TAN CH",-,"P15 carrier stop over position at transfer
+- Resume & run. NG
+- Manually jog carrier to position. NG
+- Fully stop machine
+- Vent P14-C3 chambers
+- Found dropped disk at P14 GV
+- Clear dropped disk inside chamber
+- Clear all disk at LD/ULD chamber
+- Pump down & leak check
+- Heat run
+
+change carrier no 28
+",20034189,2021/04/06,09:20:36,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2656,TACT TIME UNSTABLE,2021/03/26,16:50,17:00,10,CHAN SL,-,"> Production inform tact time slow.
+> Check & found LD supply disk slow.
+> Adjust LD slow rough timing from 38.4s to 37.2s.
+> Check tact time.Ok
+> Handover production.
+
+0 scrap disk
+
+
+",PDTA_20077706,2021/03/26,20:02:14,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/08,15:25,16:00,35,"NGAI YC,ONG JX",-,"- Clear disk & fully stop machine
+- Vent P12 chamber
+- Service & clean up all targets
+- Change P12 vacuum shields
+- Pump down & leak check
+- Test fire
+- Heat run",20034189,2021/03/08,16:17:01,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/11,20:15,20:20,5,"JIAN FENG,FARID",-,">> Prod request to zero P11 CM gauge
+>> Half stop machine
+>> Zero P11 CM gauge
+>> Resume run
+>> Handover
+
+Scrap disk : 0
+",20108743,2021/03/11,20:17:50,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/16,06:20,06:45,25,"SHAHID,PO,SUNTHRA,WANG",-,"- ID scratch issue
+- Clear disk
+- Vent ULD
+- Change ULD PUB
+- Clean up all ID contact points
+- Pump down
+- Dummy run
+- Monitor
+- Handover",20034409,2021/03/16,07:04:12,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/19,20:15,22:30,135,"JIAN FENG,SUNTHRA,MING YONG,SENG",.,"..F2 N&K NG
+..Perform leak check
+..Swap F1 with F2 cable
+..Reset controller
+..F1 filament snap
+..Chg youtec
+..Perform leck check
+..Swap back cable
+..Handover production
+
+Old gun:04
+New gun:10",20098241,2021/03/20,07:39:58,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/20,00:15,08:00,465,"JIAN FENG,SUNTHRA,MING YONG,SENG",.,"..F2 N&K after chg Youtec gun still NG
+..Swap F1 with F2 cable....still F2 NG
+..Swap toluene bottle with R2...still F2 NG
+..Perform drypump leak check
+..Swap back cable
+..Chg F2 diode
+..Air exhaust 1hrs
+..Depo F1,R2 and F2 filament snap
+..Chg youtec
+..New gun R1 water leak
+..Chg gun
+..Handover dayshift
+
+Old:10
+New:07
+",20098241,2021/03/20,07:57:07,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/21,01:00,01:05,5,"AH SENG,JIAN FENG,SUNTHRA,MINGYONG",-,"- HLL Carrier transfer timeout.
+- Resume error OK
+- Monitor
+- Handover production
+
+Scrap 100 disk",20159974,2021/03/21,01:37:31,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/24,09:55,10:00,5,"ONG JX,NGAI",Cap etch Water Cooling Rate Low,"- Input Dummy 
+- Half Stop Machine 
+- Adjust R2 Water Cooling Rate From 1.4L To 2.4L
+- Resume Run Ok 
+-Hand Over Prod 
+- Scrap 0",20057089,2021/03/24,10:07:59,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,06:50,06:55,5,"PO,SUNTHRA,WANG",HLL Carrier stopped at the over position at transfer,"- Found no carrier change
+- Resume run
+- Monitor
+- Handover
+
+Scrap 100pcs
+
+
+",20159986,2021/03/29,07:55:05,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,07:35,07:40,5,"PO,SUNTHRA,WANG",HLL Carrier stopped at the over position at transfer,"- Found no carrier change
+- Fine tune HLL carrier sensor c
+- Resume run
+- Monitor
+- Handover
+
+Scrap 100pcs
+
+
+",20159986,2021/03/29,07:57:54,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/06,00:00,00:10,10,"SHAHID,FARID,SUNTHRA,WANG",-,"- Prod req to zero P11 CM
+- Half stop sputter
+- Zero CM
+- Resume run
+- Monitor pressure ok
+- Handover",20034409,2021/04/06,05:34:02,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/19,13:30,15:45,135,"FENG WEI,WONG TS,NGAI,LI PENG,STEVEN CHUNG,TAN SC,CHOONG HY,CHAN SL,KOO SX",-,"> Clear disk & stop machine.
+> Perform P26 CM Gauge factory reset & zeroing.
+  - Check chamber pressure is 2.8E-2.
+> Air-exhaust youtec chamber 300sec.
+> Vent LD, ULD & P24 to P27 chamber.
+> Stop P26 turbo pump.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Change P24 CAPS Etch Gun filament.
+> Change P26 Youtec Gun.
+> Change P26 CM Gauge.
+> Install air regulator at TDU air cooling for P3, P9 & P25 heater chamber.
+  - Adjust air pressure to 0.1Mpa.
+> Change youtec F1 & F2 controller diode.
+> Change P27 Bias Spring.
+  - Check & adjust Bias spring contact alignment.
+> Change P27 vacuum shield.
+  - Change P27 VHF cover shield from 50mm to 40mm.
+> Check & adjust P26 sliding MV position.
+  - Collect data MV knob distance.
+> Start P26 turbo pump.
+> Perform P26 PQ curve data.
+> Change carrier No.18 to 24.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Zeroing P26 CM Gauge.
+> Air-exhaust youtec chamber 3600sec.
+> Handover production.
+
+0 scrap disk
+
+P24 Cap Etch Gun
+New : CE-06
+Old : CE-06
+
+P26 Youtec Gun
+New : 04
+Old : 11
+
+P26 New CM : AF1751210B
+P26 OLD CM : AF18X2149B
+",PDTA_20077706,2021/03/19,16:16:23,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/10,16:00,17:05,65,"ROY W,LIEW SE,VINCENT T,ONG JX",-,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Vent LD, ULD, C2-P10 & P24 to P26 chamber.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Swap P10 F1 & R1 targets.
+> Change P10 vacuum shield.
+> Change P24 CAPS Etch Gun filament.
+> Change P26 Youtec Gun.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P10 target.Ok
+> Air-exhaust youtec chamber 3600sec.
+> Handover production.
+
+0 scrap disk
+
+P24 Cap Etch Gun
+New : CE-06
+Old : CE-06
+
+P26 Youtec Gun
+New : 10
+Old : 14
+",20034189,2021/03/10,18:45:49,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/20,08:00,11:00,180,"FENG WEI,WONG TS,STEVEN CHUNG,TAN SC",- N&K result unbalance,"> Take over from night shift.
+  - P26 F2 N&K low , R2 N&K High
+> Change P26 Youtec Gun.
+> Perform C4 to P27 chamber leak check.Ok
+  - Include P26 Gas Box & Piping .
+> Check Youtec controller cable connection.Ok
+> Reset P26 Youtec controller.
+> Change P26 Youtec Drypump.
+> Update youtec check list.Ok
+> Air-exhaust youtec chamber 3600sec.
+> Handover production.
+
+0 scrap disk
+
+P26 Youtec Gun
+New : 07
+
+",PDTA_20077706,2021/03/20,13:49:47,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/25,15:05,17:30,145,"CHAN SL,NGAI,STEVEN CHUNG,CHOONG HY,ONG JX,LI PENG",- P26 F1 cathode broken,"> Production inform Youtec F1 filament snap.
+> Off LD process & clear disk.
+> Inform Engineer & activate early youtec change.
+> Air-exhaust youtec chamber 300sec.
+> Collect All chamber PQ line data.
+> Vent LD, ULD, P2 & P24 to P28 chamber.
+> Manual clear LD T-disk.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Change P2 target.
+> Change P2 vacuum shield.
+> Change P24 CAPS Etch Gun filament.
+> Change P26 Youtec Gun.
+> Change P27 vacuum shield.
+> Change P28 Ar knocking Glass Panel & shield.
+> Change P26 0.1Torr CM Gauge.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P2 target.Ok
+> Air-exhaust youtec chamber 3600sec.
+> Handover production.
+
+Scrap 64pcs disk
+
+P26 New CM : AF2014186B
+P26 OLD CM : AF1751210B
+
+P24 Cap Etch Gun
+New : CE-06
+Old : CE-06
+
+P26 Youtec Gun
+New : 02
+OLD : 07
+",PDTA_20077706,2021/03/25,18:00:45,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/30,14:00,16:10,130,"NGAI YC,LI PENG,ONG JX,LIEW YM",P2A OD sector Row issues,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Change P26 BA filament
+> Collect Youtec PQ line data.
+> Vent LD, ULD, P24 & P26-P27 chamber.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Change P24 CAPS Etch Gun 
+> Change P26 Youtec Gun.
+> Change P27 Bias Spring.
+> Check & adjust Bias contact alignment.Ok
+> Change P24 MFC 
+> Change P24 R2 controller
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Air-exhaust youtec chamber 600sec.
+> Heat run 
+
+
+0 scrap disk
+
+P24 Cap Etching
+New : CE-03
+Old : CE-06
+
+P26 Youtec
+New : 08
+Old : 11
+",20108743,2021/03/30,17:00:25,,,,
+B03,SPUTTER,E023,SPT,208,-,SM2663,ALIGNMENT MONITORING,2021/03/15,17:35,19:45,130,"LIEW YM,ROY W",-,"Clear disk & fully stop machine
+- Vent ULD chamber
+- Check & adjust ULD alignment
+- Pump down & leak check
+- Heat run
+
+
+Monitor ULD alignment during dummy run",20034189,2021/03/15,19:44:47,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2020,CONVERSION/PLAN DOWN,2021/03/06,08:05,20:00,715,REGEN TEAM,-,"> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install GV and GV cover for P3,P4,P8,P9,P23,P24,C4 and P26
+> Mount all targets, youtec guns and shield parts.
+> Do the centering check
+> Do the 10mm check
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.NG
+   -Found P3 GV cover leak.
+   -Service o-ring. ok
+   -Found P6 gas 4 MFC leak
+   -Tighter the MFC.ok
+   -Found P12 front side TS spacer leak
+   -Change P12 TS spacer.ok
+> Perform External leck check . OK
+> Peform HV cable check
+> Peform functional check
+> Engineer check the config
+> Change P26 MV spacer from 4mm to 6mm
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 3600s
+> Monitor alignment
+> Handover 
+==================================
+Regen IC : Tan Sin Choon,
+HLL to P4 : Liew S E
+P5 to P7 : Lum S F
+P8 to P10 : Zhu X H
+P11 to P13 : Tham C K
+P14 to P16 : Ong J X
+C3 to P19 : Roy Wee
+P20 to P22 : Chan S L
+P23 to VTC :  Yap Y M,Lin R Z
+GV : Jin fei
+Ld, Uld, P0 : Koh ch
+KIV : Tan C H, Choong hy,Wang Z M
+
+
+P24 Cap etching
+New : CE-09
+
+
+P26 Youtec
+New : 07
+
+",20003772,2021/03/06,17:33:28,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2020,CONVERSION/PLAN DOWN,2021/04/03,08:30,20:10,700,REGEN TEAM,Fast Regen cum Conversion,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove all GVs and GV covers
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service all chambers, GVs, GV covers and mv o-rings.
+> Perform kiv activities
+   -Remove P28 3 unit RMC driver
+   -Troubleshoot ULD ATM GV interlock sensor malfunction issue
+   -Secure all UV lamp power box on top of chamber as per photo
+   -Troubleshoot P4,6 & 7 shield bake unable to turn on issue
+   -Service P27 orifice,change o-ring 
+   -Perform TDU backlash check
+   -Check & adjust CTC transfer pulse alignment after transfer carrier from CTC to C1, adjust pos 3         pulse
+   -Change all heater connector head to shorter screw
+   -Chg P28 TDU
+> Perform Conversion
+S Cathode
+Install S Cathode for P3
+
+TS Spacer
+P3>	10/10mm	
+	
+TM Spacer
+P2>	58/58mm	
+P4>	58/58mm	
+P14>	58/58mm	
+P18	58/58mm	
+P19>	58/58mm	
+P20>	58/58mm	
+
+Thin Backing plate		
+P2>	Install P2 Type 2 Thin Backing Plate
+P3>	Install P3 Ver 2 Thin Backing Plate
+P4>	Install P4 Ver 2 Thin Backing Plate
+P14>	Install P14 Ver 2 Thin Backing Plate
+P18>	Install Pos 2 with Type 2 Thin Backing Plates
+P19>	Install Pos 2 with Type 2 Thin Backing Plates
+P20>	Install Pos 2 with Type 2 Thin Backing Plates
+
+> Perform Ld, Uld alignment check
+> Perform Ld, Uld Epson robot alignment
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install all removed GVs and GV covers
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.OK
+   -C4 leak when vent
+> Perform External leck check . NG
+   -P2 and P17 GV cover leak
+   -P0 Bottom cover leak
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 300s
+> Handover to Night shift for monitor alignment
+===================================
+Regen IC : Tan Sin Choon, Steven Chung
+HLL to P4 : Yang mh
+P5 to P9 : Ong jx
+C2 to P13 : Zhu xh
+P14 to P17 : Kong dy
+P18 to P22 : Ji Bing
+P23 to VTC : Liew ym, Roy wee
+Gv : Jin fei, Tay kh
+KIV : Tan sc, Tan ch, Choong hy, Wang zm
+Ld, Uld, P0 : Yap ym (Koh ch), Wilson Chan
+
+
+P24 Cap Etching
+New : CE-09
+Old : CE-09
+
+P26 Youtec
+New : 10
+Old : 11
+
+",20003681,2021/04/03,18:58:42,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/07,12:45,13:20,35,"TAN CH,ONG JX",-,"- P11 F2 no discharge
+- Manually test fire. NG
+- Clear disk & fully stop machine
+- Check for target short using multimeter. Yes
+- Vent P11 chamber
+- Remove P11 F2 vacuum shields
+- Check for target short . Yes
+- Spray P11 F2 cathode using helium. OK
+- Fix back vacuum shields
+- Check for target short. OK
+- Pump down & leak check
+- Test fire
+- Heat run",20034189,2021/03/07,13:41:59,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/07,23:35,00:20,45,"PO,WANG,CI,FARID",P14  No discharge at HV-F1,"- Pause P14
+- Manual test fire power using 80 NG but higher power OK
+- Reset controller and cc link
+- Change F1 cc link
+- Swap F1 and F2 HV cable
+- Manual test fire OK
+- Swap back P14 HV cable
+- Change and adjust HV alarm initial
+- Inform engineer
+- Resume dummy run
+- Handover
+",20159986,2021/03/08,06:19:25,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/08,02:00,02:10,10,"PO,WANG,CI,FARID",P14  No discharge at HV-F1,"- Pause P14
+- Increase HV alarm initial limit
+- Manual test fire OK
+- Resume run
+- Monitor
+- Handover
+",20159986,2021/03/08,06:16:45,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/18,11:15,11:20,5,NGAI,-,"> P19 F1/R1 No Discharge.
+  - During dummy run
+> Pause machine & manual test fire P19 target few cycle.Ok
+> Resume run & monitor.Ok
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/18,12:34:45,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/06,01:05,01:10,5,"SHAHID,FARID,SUNTHRA,WANG",-,"- P12 R1 no discharge
+- Pause P12
+- Manual test fire ok 
+- Resume run
+- Monitor
+- Handover",20034409,2021/04/06,07:23:03,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/04/03,00:20,00:30,10,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,">> P0 bias no discharge
+>> Test fire.OK
+>> Resume run
+>> Handover
+
+Scrap disk : 100",20108743,2021/04/03,02:26:09,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/04/03,02:00,02:10,10,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,">> P0 bias no discharge
+>> Reset controller.OK
+>> Test fire.OK
+>> Resume run
+>> Handover
+
+Scrap disk : 25",20108743,2021/04/03,02:27:16,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/04/03,02:30,02:40,10,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,">> P0 bias no discharge
+>> Zero CM gauge
+>> Resume run
+>> Monitor.OK
+>> Handover",20108743,2021/04/03,03:22:58,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/04/03,03:00,03:25,25,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,">> P0 bias no discharge
+>> Clear disk and fully stop machine
+>> Change CC-link
+>> Test fire.OK
+>> Dummy run
+>> Handover",20108743,2021/04/03,03:21:45,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2221,ULD EPSON CRASHED AT SUB,2021/03/07,17:00,17:45,45,"ONG JX,TAN CH",-,"- ULD epson  robot crash
+- Pause machine
+- Check & adjust ULD epson robot alignment
+- Conveyor power off/on
+- Continue dummy run
+- Monitor
+- Handover
+",20034189,2021/03/07,17:41:52,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2490,CRYOPUMP FAILURE,2021/03/28,23:30,00:10,40,"PO,SUNTHRA,WANG",P8 cryopump 1st temp exceed limit,"- Clear disk
+- Heat run
+- Inform engineer
+- Engineer decide increase the cryopump temp limit
+- Dummy run 
+- Handover
+",20159986,2021/03/29,00:23:37,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2490,CRYOPUMP FAILURE,2021/03/29,06:30,08:15,105,"PO,SUNTHRA,WANG",P8 cryopump 1st temp exceed limit,"- Clear disk
+- Purge and regen cyropump for P1,2,3,4,5,8,9,11,12,13 and 15
+- Handover dayshift
+
+
+
+
+",20159986,2021/03/29,08:04:47,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/07,16:30,16:50,20,"ONG JX,TAN CH",-,"- Change MV spacer
+ P16 +1mm
+ P18 +1mm
+ P19 +1mm
+ P20 +1mm
+- Heat run",20034189,2021/03/07,17:44:16,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/08,18:25,18:35,10,ONG JX,-,"- Change MV spacer
+ P5 + 0.3mm",20057089,2021/03/08,18:34:23,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/18,04:00,05:10,70,"SHAHID,JIAN FENG,PO,FARID",-,">> RD request to adjust P0 MV spacer to achieve 1.5 Pa
+>> Input empty cassette
+>> P0 - P28 carrier short position
+>> Jog carrier.OK
+>> Resume run.NG
+>> Machine hang
+>> Fully stop machine
+>> Vent ULD
+>> Clear disk at ULC
+>> Pump down
+>> Clear disk in machine
+>> P0 short position
+>> Jog carrier
+>> Resume run
+>> Call out carrier 21 due to multiple short position
+>> Clear disk in machine.OK
+>> Change P0 MV spacer from 6mm to 13mm
+>> Dummy run
+>> Monitor pressure.OK
+>> Handover",20108743,2021/03/18,05:35:26,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/26,14:25,14:35,10,CHAN SL,-,"> R&D request to change MV Spacer.
+> Input 4 empty cassette & pause machine.
+> Change P0 MV Spacer from 12mm to 10mm.
+> Check MV sensor.Ok
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/26,15:06:32,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/04/04,22:00,00:00,120,"SHAHID,CI,SUNTHRA,WANG",-,"- RD req to increase P0 MV spacer from 10mm to 13mm
+- Input empty cass
+- Increase MV spacer from 10mm to 13mm
+- Resume run
+- P0 keep having designated process disabled due to open intrerlock
+- Pause P0
+- Zero CM & offset value
+- Not able to have Error
+- On/off ION gauge
+- Zero and offset CM again able to but enocunter ION gauge communication error
+- On/off ION gauge again Ng
+- Reset PLC ok
+- Resume run
+- P0 designated process disable due to open interlock again
+- Plug in/out CM gauge wire
+- Zero and offset again Ng
+- Change from 13mm to 6mm
+- Zero & offset CM gauge again
+- Resume run ok 
+- Monitor pressure
+- Handover",20034409,2021/04/05,00:09:03,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2571,CARRIER CHANGE (OFFLINE),2021/03/27,20:15,21:30,75,"AH SENG,JIAN FENG,PO,FARID",-,">> RD request to change all carriers
+>> Change all carriers
+>> Heat run
+>> Handover",20108743,2021/03/27,21:22:34,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2571,CARRIER CHANGE (OFFLINE),2021/04/02,17:50,18:20,30,FENGWEI,-,"--R&D ruquest change peel off carrier
+--Monitor 
+--Change Carrier #04,31,32,33
+--Heat run & handover",20108743,2021/04/02,18:47:40,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2580,TARGETS CHANGE,2021/03/11,11:50,14:00,130,"FENG WEI,WONG TS,ZHANG JG,JI BING,MOORTHY,KOO SX,NGAI",-,"> R&D request to change target.
+> Clear disk & stop machine.
+> Vent P3 & P18 to P20 chamber.
+> Change P3, P18 & P20 Pos1 target.
+> Change P18 Pos1 TM Spacer from 60mm to 58mm.
+> Change P18 TS Spacer from 5mm to 9mm.
+> Change P3, P18, P19 & P20 vacuum shield.
+> Change carrier No.32 to 34.
+> Pump down & leak check.Ok
+> Reset P18 controller.Ok
+> Manual test fire P3 & P18 to P20 target.Ok
+> Handover R&D.
+
+0 scrap disk
+
+",PDTA_20077706,2021/03/11,14:26:01,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2580,TARGETS CHANGE,2021/03/18,09:00,10:00,60,"FENG WEI,WONG TS,NGAI",-,"> R&D request to change target.
+> Clear disk & stop machine.
+> Vent P14, P18 & P19 chamber.
+> Change P14, P18 & P19 Pos1 target.
+> Change P14, P18 & P19 vacuum shield.
+> Reconnect ULD cover interlock sensor cable.
+> Pump down & leak check.Ok
+> Manual test fire P14, P18 & P19 target.Ok
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/18,09:58:31,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2580,TARGETS CHANGE,2021/03/27,09:50,10:25,35,"FENG WEI,STEVEN CHUNG",-,"> R&D request to change P3 target.
+> Clear disk & stop machine.
+> Vent P3 chamber.
+> Change P3 Pos1 target.
+> Change P3 vacuum shield.
+> Pump down & leak check.Ok
+> Manual test fire P3 target.Ok
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/27,10:59:24,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2580,TARGETS CHANGE,2021/03/29,14:30,16:00,90,"LI PENG,ONG JX,NGAI YC",-,"- Perform S-bat camera
+- Fully stop machine
+- Vent P3 & P19 chambers
+- Change P3 & P19 Pos 1 targets
+- Change P3 & P19 vacuum shields
+- Pump down & leak check
+- Test fire
+- Heat run",20034189,2021/03/29,16:32:47,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2654,SPT CONVEYOR HANG,2021/03/28,02:00,02:05,5,"AH SENG,JIAN FENG,PO,FARID",-,">> RD inform SPT conveyor hang
+>> Resume error.OK
+>> Handover",20108743,2021/03/28,07:53:44,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/07,14:50,16:15,85,"ONG JX,FENG WEI,ROY W",-,"ULd epson robot alignment NG
+- Clear disk & fully stop machine
+- Check & adjust ULD epson robot alignment
+- Change MV spacer
+ P4 -0.5mm
+ P4 -2mm
+ P6 +0.1mm
+ P9 -1mm
+ P13 -1mm
+ P14 -1mm
+ P16 +0.5mm
+ P18 +0.5mm
+ P19 +2mm
+ P20 +3mm
+Heat run",20034189,2021/03/07,19:57:25,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/09,14:45,14:55,10,ONG JX,R&D Request To Adjust LD Vac GV Timing,"- Adjust LD Vac GV timing From 2.6s to 3.3s
+- Hand Over R&D 
+- Scrap 0",20057089,2021/03/09,14:57:15,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/09,20:00,21:00,60,"SHAHID,PO,SUNTHRA,WANG",-,"- RD feedback P28 ICP light low ard 4 to 5
+- Zero & Offset CM value 
+- Adjust LD & Tune 
+- Increase orifice & reduce gas feed 
+- Handover to RD to perform measurements
+",20034409,2021/03/10,03:58:47,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/12,01:10,01:30,20,"JIAN FENG,FARID",-,">> RD request to perform APC check
+>> Perform APC for LC and ULC
+>> Heat run
+>> Handover",20108743,2021/03/12,01:24:02,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/14,18:45,19:30,45,"TAN CH,ONG JX",-,"- activate P22 bias ( bias 6 cable)
+",20034189,2021/03/14,19:31:56,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/14,22:55,23:15,20,"SHAHID,PO,SUNTHRA,WANG",-,"- RD req to adjust P26(Youtec) pressure
+- Zero CM & adjust Sliding MV
+- Monitor pressure ok
+- Handover",20034409,2021/03/15,01:17:26,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/15,19:00,20:05,65,"LIEW SE,ONG JX,TAY KH",-,"- Clear disk & fully stop machine
+- Change P0 cc-link. OK
+- Process active on P0. OK
+- Heat run
+",20034189,2021/03/15,19:48:27,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/16,21:20,21:30,10,"SHAHID,PO,SUNTHRA,WANG",-,"- RD req to Zero Cm & Adjust Sliding valve to obtain required pressure
+- Input empty cass 
+- Half stop sputter 
+- Zero CM and adjust Sliding valve
+- Resume run
+- Handover",20034409,2021/03/16,23:27:32,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/18,01:15,01:20,5,"SHAHID,JIAN FENG,PO,FARID",-,">> RD request to turn off P0 Auto GV
+>> Turn off Auto GV
+>> Resume run
+>> Handover",20108743,2021/03/18,05:36:48,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/22,10:00,10:30,30,ONG JX,R&D Request To Insert S-Bat Camera ( Carrier Claw Peel Off Issue),"- Collect S - Bat Camera Date 
+- Hand Over R&D 
+- Scrap 0",20057089,2021/03/22,10:39:57,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/25,01:20,01:50,30,"SHAHID,PO,SUNTHRA,WANG",-,"- RD req to change carrier 19 to 29 due to peel off on claw carrier
+- Vent HLL to ULD
+- Out carrier 19 to 24
+- Pump down
+- Shift carrier
+- Out carrier 25 to 29
+- Pump down
+- Shift carrier
+- Heat run
+- Handover",20034409,2021/03/25,03:40:39,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/25,05:00,05:30,30,"SHAHID,PO,SUNTHRA,WANG",-,"- Clear disk
+- RD req to perform s bat
+- Input s bat
+- Heat run
+- Handover",20034409,2021/03/25,05:51:08,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/25,21:35,21:50,15,"AH SENG,JIAN FENG,MING YONG,FARID",-,">> P26 water detector leak on
+>> Found R1 water leak
+>> Clear water leak.OK
+>> Plug in and out water tubing
+>> Check all water tubing.OK
+>> Resume heat run
+>> Handover
+",20108743,2021/03/26,01:11:09,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/25,22:00,00:00,120,"AH SENG,JIAN FENG,MING YONG,FARID",-,">> P26 Axis 1 not on standby
+>> Found transfer driver have no power
+>> Reset URF breaker.NG
+>> Change P26 TDU driver
+>> Reset breaker.OK
+>> Manually perform transfer driver setting.OK
+>> Heat run
+>> Handover",20108743,2021/03/26,01:11:35,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/26,10:40,12:15,95,"CHAN WS,STEVEN CHUNG,CHAN SL",-,"> R&D request perform P28 ICP chamber leak check.
+  - Pressure not good
+> Clear disk & stop machine.
+> Perform P27 & P28 chamber leak check.
+  - Found P28 Orifice leak.
+> Vent P28 chamber.
+> Stop P28 turbo pump.
+> Change P28 Orifice O-ring.
+> Start P28 turbo pump.
+> Pump down & leak check.Ok
+> Change P0 MV Spacer from 13mm to 12mm.
+> Check MV sensor.Ok
+> Handovet R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/26,12:32:26,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/26,13:35,13:50,15,"WONG TS,NGAI",-,"> P0 HV-Bias/Etch high voltage off during process.
+> Reset P0 Cc-link & controller.Ok
+> Zeroing P0 CM Gauge.
+> Manual test fire P0 chamber.Ok
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/26,16:01:16,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/29,08:00,13:45,345,"ONG JX,NGAI YC",-,"- Purge & regen all cyropump except P24 cap etch. 
+",20034189,2021/03/29,08:49:43,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/30,16:15,17:30,75,"ONG JX,LI PENG",-,">> RD request to change all carriers
+>> Change all carriers
+>> Heat run
+>> Handover
+
+",20034189,2021/03/30,16:33:01,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/04,01:35,03:15,100,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,">> Zero P0 CM gauge due to pressure abnormal
+>> RD request to zero P18 CM gauge
+>> RD request to change P18 V spacer
+>> Change P18 MV spacer from 3.5mm to 4.5mm
+>> Resume run
+>> Handover",20108743,2021/04/04,03:23:30,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/05,20:45,23:10,145,"SHAHID,SUNTHRA,FARID,WANG",-,"- RD feedback carrier have scratch
+- 8 carrier out 7 carrier have scratch base on day team RD
+- RD out another 2 carriers ok
+- Perform isolation from C1 to C2, C2 to C3, C3 to C1 ok no scratches found
+- Change remaining carrier all ok no scratches
+- Heat run
+- Monitor
+- Handover",20034409,2021/04/06,00:15:40,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/25,17:00,20:00,180,"CHAN SL,WONG TS,LI PENG,ONG JX,CHOONG HY,STEVEN CHUNG,TAN SC",-,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Vent P1 to P3, P5, P11, P16, P19, P24 to P26, P28 & ULD to LD chamber.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Change P1 target.
+> Change P2, P3, P5, P11 & P19 Pos1 target.
+> Change P16 Pos2 target.
+> Change P1, P2, P3, P5, P11, P16 & P19 vacuum shield.
+> Change P24 CAPS Etch Gun Filament.
+> Change P26 Youtec Gun.
+> Change P28 Ar knocking Glass Panel & shield.
+> Change P0 Bias Spring.
+  - Check & adjust Bias contact alignment.Ok
+> Change P0 vacuum shield.
+> Change P26 Youtec toulene bottles.
+> Pump down & handover night shift.
+
+0 scrap disk
+
+P24 Cap Etching
+New : CE-09
+Old : CE-09
+
+P26 Youtec
+New : 16
+Old : 14
+
+
+",PDTA_20077706,2021/03/25,19:51:54,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/14,13:50,17:15,205,"ONG JX,STEVEN C,LUM SF,WONG TS",-,"P26 CVD R1 side filament snap
+- Vent LD/ULD, P1, P24, P26 & P0 chambers
+- Change P26 Youtec 
+- Change P24 cap etch filament
+- P28 Change Glass Panel and vacuum shields 
+- Change P1 vacuum shields
+- Clean up Load/unload sub chambers
+- Change PUB
+- Check Toluene bottle level,. OK 
+- Check P0 bearing condition, OK
+- Check P0 & ensure GV install, ensure P0 Auto GV turn off & GV activated for open/close 
+- Install bias & shield for P0 
+- Check & adjust P0 bias spring alignment
+- Pump down & leak check
+- Test fire
+- Heat run
+
+P24 
+Old/New CE-07
+
+P26
+old 07
+new 09
+",20034189,2021/03/14,19:30:26,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/20,10:00,14:00,240,"FENG WEI,WONG TS,STEVEN CHUNG,CHOONG HY,CHAN SL",- F2 cathode Broken,"> R&D inform P26 F2 Youtec filament snap.
+> Clear disk & stop machine.
+> Activate early youtec change.
+> Air-exhaust youtec chamber 300sec.
+> Vent HLL to P2, C2, P10, P14, P24 to P26 & P28 to LD chamber.
+> Stop P26 turbo pump.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Change P10 target.
+> Change P14 Pos1 target.
+> Change P1, P2, P10 & P14 vacuum shield.
+> Change P24 CAPS Etch Gun filament.
+> Change P26 Youtec Gun.
+> Collect data P26 sliding MV current opening distance.
+> Start P26 turbo pump.
+> Change P28 Glass Panel & shield.
+> Change carrier No.30 to 34.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P1, P2, P10 & P14 target.Ok
+> Air-exhaust youtec chamber 3600sec.
+> Handover production.
+
+0 scrap disk
+
+P24 Cap Etch Gun
+New : CE-09
+Old : CE-09
+
+P26 Youtec Gun
+New : 14
+Old : 08
+
+",PDTA_20077706,2021/03/20,14:14:59,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/25,20:15,20:50,35,"AH SENG,JIAN FENG,MING YONG,FARID",-,">> Takeover from dayshift
+>> Perform leak check for P1, P2, P3, P5, P16, P19, P24 - P0.OK
+>> Test fire P1, P2, P3, P5, P16, P19.OK
+>> Perform PQ curve for P24 and P26.OK
+>> Activate CM gauge for P24 and P26
+>> Heat run with air exhaust for 3600s
+>> Handover",20108743,2021/03/26,01:02:52,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/04/01,09:30,12:45,195,"FENG WEI,WONG TS,CHOONG HY,ONG JX,NGAI",- P26 R1 cathode broken,"> R&D inform P26 Youtec R1 filament snap.
+> Clear disk & heat run.
+> Wait for R&D information.
+> Air-exhaust youtec chamber 300sec.
+> Vent P3, P12, P24, P26 & P28 chamber.
+> Change P3 & P12 Pos1 target.
+> Change P3 & P12 vacuum shield.
+> Change P24 Caps Etch filament.
+> Change P26 Youtec Gun.
+> Change P28 Ar knocking glass panel.
+> Change P26 All Pos toulene bottles.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P3 & P12 target.Ok
+> Air-exhaust youtec chamber 3600sec.
+> Handover R&D.
+
+0 Scrap disk
+
+New P24 Gun : CE-09
+Old P24 Gun : CE-09
+
+New P26 Gun : 11
+Old P26 Gun : 16
+",PDTA_20077706,2021/04/01,12:53:46,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2663,ALIGNMENT MONITORING,2021/03/12,13:45,14:15,30,"FENG WEI,WONG TS",-,"> Clear disk & stop machine.
+> Check LD & ULD Robot speed.Ok
+> Check LD & ULD Vacuum motor speed.Ok
+> Check LD & ULD Robot config.Ok
+> Dummy run & monitor alignment.
+> Adjust LD Both ARM T-point decrease 30 pulse.
+> Resume run & monitor.Ok
+> Handover R&D.
+
+0 scrap disk
+",PDTA_20077706,2021/03/12,14:24:16,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2663,ALIGNMENT MONITORING,2021/04/04,20:50,21:00,10,"SHAHID,CI,SUNTHRA,WANG",-,"- RD req to check alignment
+- Check LD & ULD alignment
+- Handover",20034409,2021/04/05,00:04:29,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2663,ALIGNMENT MONITORING,2021/04/05,10:30,11:00,30,"WONG TS,NGAI",-,"> Dummy run with off heater.
+> Adjust LD Both ARM Stn.31 to 36 retract 200 pulse.
+> Find tune P27 ICP Pos2 Pr high.
+> Zeroing P26 CM Gauge.
+> Handover R&D.
+
+0 Scrap disk
+
+",PDTA_20077706,2021/04/05,11:17:54,,,,
+B03,SPUTTER,E023,SPT,209,-,SM2665,IMPROVEMENT & MODIFICATION,2021/03/13,15:30,16:00,30,"FENG WEI,WONG TS",-,"> R&D request to change P3 Pos1 TM Spacer.
+> Clear disk & stop machine.
+> Change P3 Pos1 TM Spacer from 54mm to 56mm.
+> Recalibrate P3 Pos1 RMC sensor.
+> Handover R&D.
+
+0 scrap disk
+",PDTA_20077706,2021/03/13,16:10:24,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2010,REGEN,2021/03/16,08:30,17:30,540,"LIEW YM,REGEN TEAM",- Fast Regen,"> Take over the machine.
+> Fully stop machine and copy all datas needed.
+> Vent full system and call out all carriers.
+> Stop and purge all cryopumps and stop all turbopumps.
+> Remove all GVs and GV covers.
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Service all chambers, GVs, GV covers and mv o-rings.
+> Perform kiv activities
+- Remove 5 set Shield bake cable.
+- Change P22 10 "" Enhance pump.
+- Troubleshoot ULD ATM GV interlock sensor blinking issue.
+- Service P27 and P28 orifice, change o-ring and bearing if no good
+- Remove P28 4unit RMC driver unit.
+- Check & adjust HLL to CTC backward pulse & butterfly alignment,ensure after CTC transfer to C1 CTC butterfly near staright.
+- Perform HV cable short circuit check for P7,P13,P15,P17,P19 & P23
+- Change P22 Ba gauge
+- Collect all chambers pulling force,change TDU motor if torque over 15N. (Koo)
+- Reset conveyer power supply .
+- Secure all UV lamp power box on top of chamber as per photo (Vincent Toh)
+- Change P21 F1 Controller
+- Change P23 TM spacer from 56mm to 55mm.
+- Change Mv spacer
+  P10 MV 0.2---> 0mm
+  P21 MV 3mm---> 2mm
+-Swap the HV cable
+P17 <------------------------------> P18
+P19 <------------------------------> P20
+> Check all bias springs' condition contact alignment.
+> Start all turbopumps.
+> Check all cryopumps' compressors' helium level.
+> Install all removed GVs and GV covers
+> Mount all targets, youtec guns and shield parts.
+> Check all chambers' rail alignment by using 0.1mm york carrier.
+> Check all chambers' shield parts' particles by using UV torch
+> Insert 1.5mm carrier to check scratches.
+> Insert all new carriers and pump down all chambers.
+> Perform internal leak check.OK
+> Perform External leck check . OK
+> Autorun and test fire.
+> Check all TDU vibration.
+> Heat run with toulene air-exhuast for 900s
+> Monitor alignment
+> Handover to Production
+
+==================================
+Regen IC : Liew yau ming
+HLL to P11 : Li Peng,Yang Meng Hua,Kong De Yi 
+P12 to P15 : Lin Zhong Guang
+P16 to P19 : Ji Bing
+P20 to P23 : Sun Xi Wen
+P24 to VTC :  Lin Ren Zhi,Yap Yoon Meng
+GV : Jin fei,Thong Kin Siang,Tay Kok Hwee
+Ld, Uld, P0 : Wilson Chan
+KIV : Wong Tian Sit,Roy,LSE
+
+P24 Cap etching
+New : CE-03
+Old : CE-03
+
+P26 Youtec
+New : 16
+Old : 04
+
+P22 cryopump No
+New : 14Z15092C
+Old : 14Z04103B
+",20150023,2021/03/16,16:37:38,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/07,13:05,13:10,5,ONG JX,-,"P4 No discharge at HV-F1. 
+- Manually test fire. OK
+- Resume & run
+- Monitor 
+- Continue production
+
+Scrap 150disks
+",20034189,2021/03/07,19:09:55,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/08,00:00,00:10,10,"PO,WANG,CI,FARID",P4  No discharge at HV-F1,"- Pause P4
+- Manual test fire OK
+- Resume run
+- Monitor
+- Handover
+
+Scrap 100pcs",20159986,2021/03/08,00:30:56,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/09,14:15,14:30,15,ONG JX,-,"P5  No discharge at HV-F2.
+- Resume & run. NG
+- Reset controller & cc-link
+- Resume & run
+- Monitor
+- Continue production
+
+scrap 100 disk",20034189,2021/03/09,15:30:09,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/15,19:45,19:55,10,CHEE HONG,-,"- P12 R2 no discharge
+- Resume run & monitor firing graph Ok
+- Continue MP
+
+Scrap 100 pcs disks",20108743,2021/03/16,15:25:17,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/03/16,20:10,22:45,155,"SHAHID,PO,SUNTHRA,WANG",-,"- Encounter sputter hang
+- Pause LD
+- Home vacuum motor
+- Resume ok
+- P5,P17,P18 intemittent no discharge at different Pos
+- Adjust gas feed and power
+- Notice P18 R1 currennt(I) Ng
+- Pause P18
+- Manual test fire current Ng
+- Reset controller and CC link Ng
+- Clear disk
+- Swap R1 & R2 HV cable
+- Manual test fire, R1 still Ng
+- Change CC link Ng
+- Change controller and CC link again
+- Manual test fire ok
+- Dummy run
+- Monitor
+- Handover",20034409,2021/03/17,07:44:52,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/12,14:40,14:45,5,"WONG TS,NGAI",-,"> P2 HV-Bias/Etch readout is out off upper/lower limit. ( Carrier No.3 )
+> Reset P2 Bias controller & Cc-link.
+> Change Bias upper/lower limit from 10% to 20% ( Follow L208 ).
+> Change Carrier No.3.
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/03/12,15:02:46,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/18,10:35,11:30,55,"FENG WEI,NGAI",-,"> P7 HV-R1 readout is out off upper/lower limits.
+> Reset P7 Cc-link & controller. NG
+> Off LD process & clear disk.
+> Manual clear LD T-disk.
+> Change P7 Pos1 controller.
+> Check P7 Pos1 controller setting.Ok
+> Manual test P7 target.Ok
+> Handover production.
+
+Scrap 64pcs disk
+",PDTA_20077706,2021/03/18,12:43:35,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/03/22,11:15,11:20,5,ONG JX,-,"P2 Readout of HV-BIAS/ETCH from the monitor is out of the upper/lower limit.
+> Pause machine.
+> Manual test fire.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+
+Scrap 100 disks
+",20034189,2021/03/22,11:36:53,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2031,HV READOUT OUT OF UPPER/LOWER,2021/04/03,06:20,06:45,25,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,"..F1/R1 Ip unstable drop to 800
+..Input dummy
+..Wait for Ip to stable
+..Run and Monitor",20098241,2021/04/03,06:49:27,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2032,HV BIAS/ETCH OUT OF LIMITS,2021/03/26,15:10,15:30,20,"WONG TS,NGAI",-,"> P2 HV-Bias/Etch readout is out of upper/lower limit.
+> Reset P2 Bias Cc-link & controller.NG
+> Change P2 Bias Cc-link.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/03/26,16:04:43,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2060,DROP DISK DETECTED AT C1,2021/03/29,16:50,19:00,130,"ONG JX,NGAI YC",-,"- Clear disk & fully stop machine
+- Vent LD chamber
+- Clear the drop disk at LD chamber
+- perform S-bat camera
+- Handover
+",20034189,2021/03/29,19:30:13,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2090,DROP DISK DETECTED AT C4,2021/03/19,08:05,10:20,135,"FENG WEI,WONG TS,NGAI,STEVEN CHUNG,CHAN SL,YAP YM,CHAN WS",- P26 youtec F1/R1 filament snap,"> C4 Pos2 detect drop disk ( Carrier No.2 ).
+> Off LD process & clear disk.
+> ULD Pos1 detect drop disk ( Carrier No.2 ).
+  - Check & found carrier No.2 Both Pos drop disk.
+> Manual clear LD T-disk.
+> Error occurred in F-CVD system.
+  - P26 youtec F1 & R1 cathode broken.
+> Change Carrier No.2.
+> Insert S-Bat camera to find drop disk.
+  - Found P21 F2 & R1 target crack.
+  - Found drop disk at P26 chamber ( 1pcs at P26 F1 Gun, 1pcs at R1 Gun ).
+> Inform Engineer & activate early youtec change.
+> Air-exhaust youtec chamber 300sec.
+> Vent LD, ULD, P19, P21 & P24 to P27 chamber.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Adjust LD Both ARM Pos1 mechanical alignment.
+> Change P21 F2 & R1 target.
+> Change P19 & P21 vacuum shield.
+> Change P24 CAPS Etch Gun filament.
+> Change P26 Youtec Gun.
+> Change P26 youtec toulene bottles to canister.
+  - Change toulene piping to canister piping.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P18 to P22 target.Ok
+> Air-exhaust youtec chamber 3600sec.
+> Handover production.
+
+Scrap 64pcs disk
+
+P24 Cap Etching
+New : CE-03
+Old : CE-03
+
+P26 Youtec
+New : 01
+Old : 16
+",PDTA_20077706,2021/03/19,11:06:08,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2191,LD EPSON CRASHED AT SUB,2021/03/10,23:55,01:00,65,"SHAHID,FARID,SUNTHRA,WANG,CI",-,"- LD Epson robot hit sub chamber outside wall
+- Fully stop sputter
+- Perform LD Epson robot alignment
+- Clear remaining disk in sputter
+- Dummy run
+- Monitor
+- Handover",20034409,2021/03/11,02:18:43,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2269,GATE VALVE NOT FULLY OPENED,2021/03/06,13:50,13:55,5,FENG WEI,-,"> CTC GV not fully opened.
+> Manual open/close CTC GV.Ok
+> Check CTC GV open/close sensor.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/03/06,17:14:16,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2589,CARRIER STOP AT SHORT POSITION,2021/03/06,13:30,13:35,5,FENG WEI,-,"> Carrier No.34 stop short position at CTC chamber.
+  - During carrier change.
+> Check CTC chamber A, C & E sensor.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+Scrap 100pcs disk
+",PDTA_20077706,2021/03/06,17:09:16,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2589,CARRIER STOP AT SHORT POSITION,2021/03/12,07:15,07:25,10,JIAN FENG,-,">> CTC carrier short position
+>> Jog carrier.OK
+>> Resume run
+>> Call out carrier
+>> Handover
+
+Scrap disk : 100
+",20108743,2021/03/12,07:35:46,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2654,SPT CONVEYOR HANG,2021/03/18,11:40,11:50,10,NGAI,-,"> Production inform sputter conveyor hang.
+  - During dummy run
+> Found 1 empty cassette drop at ULD shutter conveyor.
+> Clear conveyor All cassette & home conveyor.Ok
+> Resume run & monitor.Ok
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/18,12:50:21,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/08,05:45,05:55,10,"PO,WANG,CI,FARID",P28 Readout of Front1 Light sensor from the monitor is out of the upper/lower limit.,"- Pause P28 
+- Manual test fire OK
+- Monitor
+- Handover
+
+Scrap 150pcs",20159986,2021/03/08,06:54:03,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/08,06:15,06:30,15,"PO,WANG,CI,FARID",P28 Readout of Front1 Light sensor from the monitor is out of the upper/lower limit.,"- Pause P28 
+- Zero CM
+- Manual test fire OK
+- Monitor
+- Handover
+
+Scrap 150pcs",20159986,2021/03/08,06:55:07,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/08,07:25,07:35,10,"PO,WANG,CI,FARID",P28 Readout of Front1 Light sensor from the monitor is out of the upper/lower limit,"- Pause P28
+- Offset CM
+- Resume run
+- Monitor
+- Handover
+
+Scrap 150pcs",20159986,2021/03/08,07:49:47,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/08,09:20,10:00,40,"NGAI YC,FIRDAUS,TAN CH",-,"- F1R1F2R2 Readout of Front1 Light sensor from the monitor is out of the upper/lower limit. 
+- Process active off LD
+- Clear all disk inside chambers
+- Perform P28 CM calibrate & zeroing. NG
+- Perform P28 CM factory reset
+- Perform P28 CM calibrate & zeroing.. OK
+- Continue dummy run
+- Monitor
+- Handover
+
+Scrap 150disk
+",20034189,2021/03/08,12:10:42,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/08,13:15,15:15,120,"NGAI YC,ONG JX,TAN CH",-,"- Production request check P13 HV cable 
+- Clear disk & fully stop machine
+- Found P13 F1 & F2 cable.NG
+- Swap P13 F1 & F2 cable label. 
+- Test fire
+- Heat run",20034189,2021/03/08,16:23:27,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/11,01:30,01:40,10,"SHAHID,FARID,SUNTHRA,WANG,CI",-,"- P2 protection(bleeder resistance for HV bias) was turn off
+- Check URF
+- Found P/S 2 Rack 2 trip
+- On back breaker
+- Resume run
+- Monitor
+- Handover",20034409,2021/03/11,02:17:46,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/11,02:15,02:35,20,"SHAHID,FARID,SUNTHRA,WANG,CI",-,"- Clear disk
+- Swap P17 to P20 HV cable
+- Reset controller URF
+- Manual test fire ok
+- Dummy run
+- Monitor
+- Handover",20034409,2021/03/11,02:16:59,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/14,12:15,12:30,15,TAN CH,-,"P15. Designated process is disblaed due to opened interlock 
+- P15 F1 RMC does not rotate
+- Pause P15 chamber
+- Reset P15 RMC breaker
+- Resume & run
+- Monitor
+- Continue production
+
+Scrap 100pcs
+",20034189,2021/03/14,14:05:24,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/17,00:45,01:00,15,"SHAHID,PO,SUNTHRA,WANG",-,"- Clear disk
+- Swap back P17,P18,P19,P20 HV cable
+- Reset controller URF
+- Manual test fire ok
+- Handover",20034409,2021/03/17,01:18:09,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/28,20:15,20:40,25,"PO,SUNTHRA,WANG",-,"- Prod inform P26 F2 pf low
+- Dummy run
+- Abort and redepo P26
+- Monitor
+- Handover",20159986,2021/03/28,22:37:07,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/25,13:30,16:30,180,"CHAN SL,WONG TS,STEVEN CHUNG,LI PENG,ONG JX,NGAI",-,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Collect All chamber PQ line data.
+> Vent HLL to P2, LD, ULD, P19 & P24 to P27 chamber.
+> Stop P26 turbo pump.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Change P2 target.
+> Change P2 & P19 vacuum shield.
+> Change P24 CAPS Etch Gun Filament.
+> Change P26 Youtec Gun.
+> Change P27 Bias Spring.
+  - Check & adjust Bias contact alignment.Ok
+> Change P27 vacuum shield.
+> Change P3 BA Gauge.
+> Adjust Youtec sliding MV half open to 90mm.
+> Start P26 turbo pump.
+> Change carrier No.18 to 24.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P2 & P19 target.Ok
+> Air-exhaust youtec chamber 600sec.
+> Heat run with ON shield Bake.
+> Handover production.
+
+0 scrap disk
+
+P24 Cap Etching
+New : CE-03
+Old : CE-03
+
+P26 Youtec
+New : 11
+Old : 01
+",PDTA_20077706,2021/03/25,17:15:08,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/04/03,09:10,10:50,100,"CHAN SL,WONG TS,THAM CK,MOORTY",-,"> Clear disk & auto run.
+> Air-exhaust youtec chamber 300sec.
+> Insert S-Bat camera check.Ok
+> Vent HLL to ULD, P19 & P24 to P26 chamber.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Change P19 vacuum shield.
+> Change P24 CAPS Etch Gun filament.
+> Change P26 Youtec Gun.
+  - Check Bias condition.Ok
+  - Check controller cable connection.Ok
+  - Change P26 F1/R1 controller diode.
+> Change carrier No.18 to 25.
+> Pump down & leak check.Ok
+  - Include P26 youtec All piping leak check ( From Top to Canister ).
+> Zeroing P26 CM Gauge.
+> Update youtec check list.Ok
+> Manual test fire P19 target.Ok
+> Heat run with ON shield bake.
+> Handover production.
+
+0 scrap disk
+
+P24 Cap Etching
+New : CE-04
+Old : CE-04
+
+P26 Youtec
+New : 16
+Old : 01
+",PDTA_20077706,2021/04/03,11:00:31,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/10,20:15,22:50,155,"SHAHID,FARID,SUNTHRA,WANG,CI",-,"- P26(Youtec) R2 cathode broken
+- Check with multimeter true
+- Off LD process active
+- Clear disk in sputter
+- Clear T disk at LD side
+- Vent P2,P19,P24,P26,P27, ULD
+- Change P2 target and vacuum shields
+- Change P19 vacuum shields
+- Change P26 Youtec
+- Change P24 cap etch
+- Change P27 vacuum shields and bias spring
+- Change ULD PUB
+- Swap P17,18,19,20 HV cable
+- Pump down
+- Manual test fire ok
+- Perform leak check
+- P26 Perform factory for CM gauge & Zero CM
+- Check C1 to CTC carrier centering, check CTC butterfly alignment 
+- Heat run
+- Handover
+
+old youtec 16
+new gun 4
+
+cap etch CE -03
+reuse this cap etch CE-03",20034409,2021/03/11,02:19:05,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/29,08:30,10:50,140,"ONG JX,LIEW SE,ROY W,LI PENG",-,"> Fully stop machine
+> Air-exhaust youtec chamber 300sec.
+> Vent ULD, P24 & P26 chamber.\
+> Change P2 bias controller
+> Change ULD PUB..
+> Change P24 CAPS Etch Gun Filament.
+> Change P26 Youtec Gun.
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Air-exhaust youtec chamber 600sec.
+> Heat run 
+
+
+0 scrap disk
+
+P24 Cap Etching
+New : CE-04
+Old : CE-03
+
+P26 Youtec
+New : 01
+Old : 11
+
+",20034189,2021/03/29,14:14:03,,,,
+B03,SPUTTER,E023,SPT,210,-,SM2663,ALIGNMENT MONITORING,2021/03/19,11:30,12:00,30,"FENG WEI,NGAI",-,"> Dummy run & monitor alignment.
+> Adjust LD Both ARM Stn.32 & 35 decrease 500 pulse.
+> Dummy run with ON shield bake.
+  - Controller trip after shield ON.
+  - Found P7 shield bake.NG
+> Resume run with Off P7 shield bake.Ok
+> Handover production.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/19,12:11:12,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2020,CONVERSION/PLAN DOWN,2021/03/11,06:00,08:00,120,"SHAHID,FARID,SUMTHRA,WANG,CI",-,"- Perform checklist
+- Perform internal leak check
+- Call out all carriers
+- Purge all cryopumps and stop Turbopump
+- Dismantle all target and vacuum shields
+- Handover day team continue",20034409,2021/03/11,07:12:45,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2020,CONVERSION/PLAN DOWN,2021/03/11,08:30,20:10,700,REGEN TEAM,Conversion,"> Take over the machine
+> Remove all youtec guns, youtec guns and shield parts.
+> Check and change all faulty bearings.
+> Perform kiv activities
+   -P16 UV lamp change
+   -Chg all shields
+   -Secure all UV lamp power box on top of chamber
+   -Remove P24,P27 and P28 12 unit RMC driver
+   -P27 VHF need check if using ceramic rail
+   -Take photo for FCVD sliding MV full OPEN & Half OPEN
+> Perform Conversion
+Magnetron
+P7>	Install 2C Magnetron							
+P8>	Install S Cathode with 2C Magnetron						
+P9>	Install Momentve PBN Heater							
+P10>	Chg P9 2C to P10								
+P12>	Install S Cathode with 2C Magnetron						
+P13>	Chg P12 2C to P13								
+P14>	Install S Cathode with 2C Magnetron						
+P15>	Chg P14 2C to P15								
+P16>	Install S Cathode with 2C Magnetron				
+P18>	Chg P16 2C to P18								
+P20>	Install 2C Magnetron							
+P21>	Install 2C Magnetron							
+P23>	Install S Cathode with 2C Magnetron						
+P24>	Install Cap Etching Unit							
+P27>	Install 40 Mhz VHF unit								
+TS Spacer
+P7>	15/15mm	
+P8>	10/10mm	
+P9>	20/20mm	
+P10>	12/12mm	
+P12>	10/10mm	
+P13>	5/5mm	
+P14>	10/10mm	
+P15>	5/5mm	
+P16>	10/10mm	
+P18>	9/9mm	
+P19>	9/9mm	
+P20>	9/9mm	
+P21>	15/15mm	
+P23>	10/10mm	
+P24>	23/23mm	
+
+Bias 
+P2>	Need 
+P4>	Need
+P7>	Bias Grounding
+P11>	Need
+P12>	Need
+P13>	Need
+P24>	Need
+P26>	Need
+P27>	Need
+
+MV Spacer
+P4>	8mm
+P5>	4mm
+P6>	1mm
+P7>	0mm
+P8>	1mm
+P9>	5mm
+P10>	1mm
+P11>	4mm
+P12>	3mm
+P14>	3.5mm
+P15>	3mm
+P16>	3.5mm
+P18>	3.5mm
+P19>	8mm
+P23>	8mm
+P24>	6mm
+P25>	8mm
+
+MFC
+Install P8 MFC4 with 1000sccm MFC							
+Install P10 to P13 with 200sccm Argon MFC						
+Install P23 MFC1 with 200 sccm Argon MFC					
+Install P24 Argon 200 sccm MFC on MFC1					
+Install P25 Argon 200 sccm MFC on MFC1					
+Install P28 N2 300 sccm MFC on MFC2																
+TM Spacer
+P2>	56/56mm	
+P3>	56/56mm	
+P4>	56/56mm	
+P7>	56/56mm	
+P10>	56/56mm	
+P13>	60/60mm	
+P15>	58/58mm	
+P18>	54/54mm	
+P20>	56/56mm	
+P21>	54/54mm	
+
+S CathodeTM Spacer	
+P8	44+5mm
+P11	44+5mm
+P12	44+5mm
+P14	44+5mm
+P16	44+5mm
+P22	44+5mm
+P23	44+5mm
+										UV Lamps
+P1 Pos1>		Need
+P2 Pos1>		Need
+P3 Pos1>		Need
+P6 Pos1>		Need
+P8 Pos1>		Need
+P9 Pos1>		Need
+P11 Pos1>	Need
+P18 Pos1>	Need
+P20 Pos1>	Need
+P23 Pos1>	Need
+LC>		Need
+					
+Pumps
+Swap P7 10"" JKN pump with P7 10"" pump(P7 needs 10"" JKN pump)				> Continue Next day				
+",20003681,2021/03/11,19:23:00,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2020,CONVERSION/PLAN DOWN,2021/03/11,20:15,08:00,705,"AH SENG,JIAN FENG,SUNTHRA,MING YONG,FARID",-,">> Takeover dayshift
+>> Service all chambers
+>> Up side shield for all chambers
+>> Mount all targets
+>> Perform bias alignment for P2, P4, P7, P11, P12, P13,P24 and P26
+>> Service MV
+>> Handover dayshift
+
+P1 - P8 : Ming yong
+P10 - P13 : Sunthra
+P14 - P16 : Jian feng
+P17 - P21 : Ah seng
+P22 - P23 : Jian feng",20098241,2021/03/12,06:13:05,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2020,CONVERSION/PLAN DOWN,2021/03/12,08:30,20:10,700,REGEN TEAM,Conversion,"> Take over machine
+> Perform KIV
+   -Chg all chamber RMC coupling
+   -Service P24,P27 and P28 orifice,change o-ring and bearing
+> Perform Uld verticalness check
+> Perform Ld, Uld alignment check
+> Perform Ld, Uld Epson robot alignment
+> P14 TDU driver NG
+   -Change driver X 3. 
+> P14 RMC driver NG
+> Install controllers and Power supply
+Install P10 with DPG-2(2KW)Improved Software						
+Install P14 with DPG-2(2KW)Improved Software						
+Install P16 with DPG-2(2KW)Improved Software						
+Install P18 with DPG-2(2KW)Improved Software						
+Remove P22 DP-2(2KW)						
+Install MFX 500 at P23						
+> Perform Carrier centreing 
+> Perform alignment check for Bias
+> Install all chambers centre shields
+> Carrier in and Pump down
+   -C4 cannot pump down
+   -Readjust GV blocks
+> Continue Next day
+
+",20003681,2021/03/12,19:43:11,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2020,CONVERSION/PLAN DOWN,2021/03/14,08:15,16:00,465,"LIEW YM,REGEN TEAM",-,"-> Continous the Conversion.
+-> Change the 4 toluene bottle.
+-> Perform internal leak check.OK
+-> Perform External leck check . NG
+  - Found P19 front side dowel pin,P6 GV cover, P11 relief valve & P15 front side dowel pin leak
+  - Service the P6 GV cover & P11 relief valve,change P15 and P19 TS spacer and cathode 'o' ring
+  - Pump down & leak check.-OK
+-> Perform MFC leak check.-OK
+-> Perform HV & bias cable check.-OK
+-> Perform functional check.-OK
+-> Change P1 UV lamp.-OK
+-> Collect S-BAT vibration data - 3 cycles 
+-> Autorun and test fire.
+-> Check all TDU vibration.
+-> Heat run with toulene air-exhuast for 3600s
+-> Monitor alignment-OK
+-> Handover to RD",20150023,2021/03/14,16:14:33,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/02,00:45,01:30,45,"PO,MING YONG,FARID",-,">> P7 R2 HV out of upper/lower limit
+>> Test fire.NG
+>> Input empty cassette
+>> Check for short.NG
+>> Inform RD P7 R2 target short
+>> Bypass P7 POS2
+>> Resume run
+>> Handover",20108743,2021/04/02,03:06:02,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2030,TARGET SHORT / NO DISCHARGE,2021/04/03,05:20,06:15,55,"AH SENG,JIAN FENG,SUNTHRA,FARID",-,"..P14 R2 no discharge
+..Swap cable R1
+..Found before no discharge R/D got move TS 
+..Home and move TS ok
+..Run and Monitor
+",20098241,2021/04/03,06:56:13,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2040,PROCESS CONDITIONING LOW YIELD,2021/03/07,10:40,11:00,20,ONG JX,- Pos1 low glide,"> Half Stop 
+> Increase Arm A Stn 32 & 35 100 Pulse .
+> Resume run & monitor alignment.Ok
+> Handover R&D.
+
+0 scrap disk
+",20057089,2021/03/07,11:00:43,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2480,TURBO PUMP FAILURE,2021/04/01,21:45,22:05,20,"PO,MING YONG,FARID",-,">> HLL turbo pump stopped
+>> Start turbo pump.OK
+>> Dummy run
+>> Monitor.OK
+>> Handover",20108743,2021/04/01,22:14:49,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/15,12:30,12:30,0,"ONG JX,TAN CH",-,"Change MV spacer
+P7 +0.3mm
+P19 -1mm",20034189,2021/03/15,12:38:05,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/15,13:05,13:15,10,ONG JX,-,"Change MV spacer
+P19 -2mm",20057089,2021/03/15,13:16:47,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/15,13:30,13:45,15,"ONG JX,VINCENT TEO",-,"Change MV spacer
+Chamge P19 To 8mm
+Active CM GUGE",20057089,2021/03/15,13:44:00,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2540,MV SPACER/MV BOLT CHANGE,2021/03/24,02:50,03:20,30,"SHAHID,PO,WANG",-,"- Input Empty cass
+- Half stop sputter
+- P5 reduce MV spacer by 1mm
+- Resume run 
+- RD perform TP
+- Input empty cass
+- Half stop sputter
+- P5 put back MV spacer 1mm
+- Resume run
+- Handover",20034409,2021/03/24,03:28:56,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2580,TARGETS CHANGE,2021/03/06,23:00,02:30,210,"AH SENG,JIAN FENG,MING YONG,FARID",-,">> RD triigger for P1, P4, P7, P19 target change ad P19 TS spacer change
+>> Fully stop machine
+>> Vent P1, P4, P7, P19
+>> Change P1 and P4 POS2 targets
+>> Swap P7 POS1 and POS2 targets
+>> Change P19 TS spacer from 9mm to 5mm
+>> Change P19 targets
+>> Change P1, P4, P7 and P19 vac shields
+>> Pump down
+>> Perform leak check.OK
+>> Test fire.OK
+>> Heat run
+>> Handover",20108743,2021/03/07,01:23:49,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2580,TARGETS CHANGE,2021/03/10,11:30,13:15,105,"LIEW YM,LIEW SE,ROY W,JIN FEI,ONG JX",-,">> RD trigger for P1, P18, P19& P21 target change
+>> Fully stop machine
+>> Vent P1, P4, P18, P19 & P21 chambers
+>> Change P1 and P18 POS2 targets
+>> Change  P19 POS1 and POS2 targets
+>> Change P4 vacuum shields ( clean up targets )
+>> Change P21 Pos 1 targets
+>> Change P1, P18, P19 and P21 vac shields
+>> Pump down
+>> Perform leak check.OK
+>> Test fire.OK
+>> Heat run
+>> Handover
+",20034189,2021/03/10,13:22:12,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2643,DESIGNATED INTERLOCK ERRORS,2021/03/14,23:15,00:30,75,"SHAHID,PO,SUNTHRA,WANG",-,"- P24(Cap etch) Designated process is disabled due to open interlock
+- Zero CM Ng
+- Check recipe ok
+- Disable Bias in recipe no abort
+- Check URF
+- On/off Bias cc link Ng
+- Change Bias cc link Ng
+- Check GOT setting
+- Disable LIA & Enable FCVD(Stn36)
+- Reactivate Bias at recipe ok
+- Monitor
+- Handover",20034409,2021/03/15,01:30:51,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2656,TACT TIME UNSTABLE,2021/03/17,16:00,16:30,30,"FENG WEI,WONG TS",-,"> R&D inform sputter tact time slow ( Slot 25 ).
+> Adjust LD slow rough timing from 34.7sec to 33.7sec.
+> Engineer request to change Epson Robot speed.
+> Clear disk & stop machine.
+> Change LD & ULD Epson Robot speed. ( Copy L204 )
+> Dummy run & monitor tact time.Ok
+> Handover R&D.
+
+0 scrap disk
+",PDTA_20077706,2021/03/17,16:51:20,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/07,08:45,09:00,15,"ONG JX,TAN CH",-,">> RD request to zero P26 CM gauge
+>> Pause machine
+>> Zero P26 CM.OK
+>> Resume run
+>> Check & adjuct P26 sliding MV .
+>> Handover
+",20034189,2021/03/07,09:04:54,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/08,10:25,10:35,10,ONG JX,-,">> RD request to zero P26 CM gauge
+>> Pause machine
+>> Zero P26 CM.OK
+>> Resume run
+>> Check & adjuct P26 sliding MV .
+>> Handover
+",20057089,2021/03/08,10:55:05,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/09,02:00,02:10,10,"SHAHID,PO,SUNTHRA,WANG",-,"- RD req to clear 2 drop disk at ULD side
+- Clear disk
+- Vent ULD
+- Remove drop disk
+- Pump down
+- Heat run
+- Handover",20034409,2021/03/09,02:12:09,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/09,22:00,23:50,110,"SHAHID,PO,SUNTHRA,WANG",-,"- RD req to check alignment due to low glide
+- LD Arm A stn 32&35 increase by 200pulse
+- Found ULD have several drop disk
+- Input empty cass
+- Vent ULD
+- Found 5 drop disk
+- Service ULD side
+- Dummy run
+- Monitor alignment
+- ULD carrier stopped at the over position at transfer
+- Not able to manually jog carrier into position via GOT
+- Vent P27 to P0
+- Manually jog carrier into position
+- Found 1 drop diskin P0
+- Pump down
+- Change carrier 24
+- Dummy run
+- ULD Arm B increase stn32 & 35 by 200 pulse
+- Monitor alignment
+- Handover",20034409,2021/03/09,23:59:10,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/10,02:35,03:15,40,"SHAHID,PO,SUNTHRA,WANG",-,"- RD req to perform s bat
+- Clear disk
+- Input s bat done
+- Heat run
+- Handover",20034409,2021/03/10,03:56:11,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/11,03:00,03:20,20,"SHAHID,FARID,SUNTHRA,WANG,CI",-,"- RD feedback P24 R1 & R2 Vpp & Load abnormal value
+- Adjust Load and Tune for R1 & R2 
+- Monitor ok
+- Handover",20034409,2021/03/11,03:28:48,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/14,20:30,22:30,120,"SHAHID,PO,SUNTHRA,WANG",-,"- P13,P15,P17 no discharge for several pos
+- Adjust Gas feed and power
+- Monitor
+- P6,P7,P8 gas 2 flow out of range error
+- Check RD using gas 2 in recipe
+- Check found Gas 2 not connected
+- Check with RD, RD change recipe to Gas1 ok
+- P7 Earth cylinder remain off
+- Zero CM ng
+- Check extend/retract via air tube ok
+- Check extend/retact sensor ok
+- Check for short ok
+- Check recipe & GOT setting
+- Temporarily disable Bias at recipe 
+- Handove RD to continue conditioning",20034409,2021/03/15,01:24:32,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/15,03:40,04:40,60,"SHAHID,SUNTHRA,PO,WANG",-,"- RD req to change MV spacer
+- P5 = 4mm to 3mm
+- P8 = 1mm to 0.5mm
+- P11= 4mm to 3mm
+- P12= 3mm to 2mm
+- P13= 3mm to 2mm
+- P14= 2.5mm to 1mm
+- P15= 3mm to 2mm
+- P16= 3.5mm to 2.5mm
+- P17= 8mm to 7mm
+- P18= 3.5mm to 2.5mm
+- P19= 8mm to 5mm",20034409,2021/03/15,04:55:48,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/15,06:15,07:15,60,"SHAHID,PO,SUNTHRA,WANG",-,"- RD feedback P13,P15,P17 intemittent no discharge
+- Pause and manual test fire ok
+- Increase HV Discharge error 1/2/3 from 0.2/0.3/0.3 to 0.5/0.4/0.4
+- Resume run
+- Monitor
+- P27 HV Bias/Etch high voltage off or on
+- Zero CM and reset controller behind chamber
+- Resume run
+- Monitor
+- P7 Earth cylinder remain off
+- Reset CC link Ng
+- Handover day team",20034409,2021/03/15,07:45:06,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/15,08:15,10:00,105,"ONG JX,VINCENT T,LI PENG",-,"- Activate P7 ertch cylinder ( ground )
+- Install P7 air tubing
+- Initial write all setting
+- Carrier stop over/short position at P5-P7 chmabers
+- Vent P7-P8 chamber
+- Change P7 bias spring
+- Check & adjust P7 bias alignment
+- Pump down & leak check
+- Test fire P7 . OK
+- Heat run
+
+change carrier 1-3",20034189,2021/03/15,09:58:09,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/16,01:10,03:20,130,"PO,WANG,SHAHID,SUNTHRA",-,"- Clear disk
+- RD req to swap P6-7 Sensor GV cover with P10-11 Sensor GV cover
+- Vent P6,7,10,11 change cover done
+- RD req to change  P19 BA done
+- Heat run
+- Monitor
+- Handover
+
+",20034409,2021/03/16,03:29:31,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/17,09:40,10:50,70,"FENG WEI,WONG TS,LIM TH",- Rate 2 result no good,"> R&D request chamber leak check.
+> Clear disk & stop machine.
+> Perform internal/external leak check for P9, P10 & P17 to P21 chamber.
+  - Found P19 R1 thin backing plate leak.
+> Perform P19 MFC leak check.Ok
+> Vent P19 chamber.
+> Change P19 R1 membrane O-ring.
+> Change P19 vacuum shield.
+> Pump down & leak check.Ok
+> Manual test fire P19 target.Ok
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/17,11:06:32,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/24,10:50,11:10,20,"LIM TH,TAN CH,ONG JX",Carrier side shield scr isolation,"RD request carrier side shield scr isolation
+Input old carrier with 1mm side shield extension
+-Found minor scr from C3-C4
+
+Input old carrier with 2mm side shield extension
+-C2-C4 having scr
+-C3-C4 having scr (deeper scr)
+
+Suspect root cause from C3-C4
+Handover RD monitor",PDER_20034220,2021/03/24,11:43:11,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/26,13:00,16:30,210,"WONG TS,CHAN WS,YAP YM,LIM TH",- High OSA,"> R&D request S-Bat camera check & APC.
+> Insert S-bat camera check.Ok
+> Fully stop machine.
+> Vent LD & ULD chamber.
+> Service LD & ULD chamber.
+> Perform LD & ULD APC. Ok
+> Pump down & leak check.NG
+  - Found ULD top cover leak
+  - Service top cover O-ring. NG
+> Change Top cover O-ring.Ok
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/26,16:38:56,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/28,20:45,22:25,100,"PO,SUNTHRA,WANG",-,"- Rd request full system leak check
+- Perform internal leak check OK
+- Perform external leak check OK
+- Heat run 
+- Handover",20159986,2021/03/28,22:40:28,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/03/31,10:10,10:25,15,FENG WEI,-,"> R&D request to service conveyor.
+> Service Conveyor All ID/OD contact.
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/31,13:52:36,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/05,20:15,00:00,225,"SHAHID,SUNTHRA,FARID,WANG",-,"- C4 rotation time out error
+- Axis 2 drive unit not on standby
+- Pause C4
+- Origin C4 Ng
+- Rot Fwd/Bwd Ng
+- Change C4 stepping motor driver Ng
+- Change Axis 2 card X2 Ng
+- Change Rot Motor
+- Origin ok
+- Rot Fwd/Bwd ok
+- Heat run
+- Monitor
+- handover",20034409,2021/04/06,00:24:50,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/06,01:05,01:15,10,"SHAHID,FARID,SUNTHRA,WANG",-,"- C4 overrun occured in rotation on teh CC rotation position out
+- Resume run
+- Monitor
+- Handover",20034409,2021/04/06,02:46:29,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2658,OTHERS (MACHINE TROUBLE),2021/04/06,01:50,02:30,40,"SHAHID,FARID,SUNTHRA,WANG",-,"- C4 overrun occured in rotation on the CC rotation position out X2
+- Input empty cass
+- Adjust Overrun Pos2 sensor position
+- Resume run
+- Monitor
+- Handover",20034409,2021/04/06,02:47:35,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/07,12:55,14:00,65,"TAN SC,LIEW SE,WONG TS,ONG JX,FENG WEI",-,"- Clear disk & fully stop machine
+- Vent LD/ULD, P23, P26 & P28 chambers
+- Change P23 Cap Etch filament
+-  Change P26 CVD Gun 
+- Change P28 LIA ArK glass panel and change vacuum shields
+- Clean up load/unload sub-chambers
+- Clean up all disk contact points
+- Pump down & leak check
+- Update youtec check list
+- Heat run
+
+P26 
+old 04
+new 11
+
+P23 
+new ME-04
+",20034189,2021/03/07,14:06:21,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/27,06:30,08:00,90,"AH SENG,JIAN FENG,PO,FARID",-,">> RD trigger for youtec change
+>> Fully stop machine
+>> Vent P1, P2, P14, P16, P18, P24 and P26
+>> Change P24 cap-etch and P26 youtec
+>> Calculate P2 old target life
+>> Change P2 pos1 targets
+>> Change P1, P2, P14, P16 and P18 vac shields
+>> Pump down all vented chambers
+>> Handover dayshift
+
+P24 new gun : CE - 14
+P26 new gun : 09
+
+P24 old gun : CE - 12
+P26 old gun : 10",20108743,2021/03/27,07:51:36,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/03/27,08:00,08:40,40,"FENG WEI,WONG TS",-,"> Take over from night shift.
+> Perform All vented chamber leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P1, P2, P14, P16 & P18 target.Ok
+> Handover R&D.
+
+0 scrap disk
+",PDTA_20077706,2021/03/27,08:58:46,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2661,PCVD YOUTEC CHANGE(SCHEDULED),2021/04/02,17:30,18:30,60,"FENG WEI,WONG TS,TAN CH,CHOONG HY,LIEW YM",-,"> Clear disk & stop machine.
+> Air-exhaust youtec chamber 300sec.
+> Vent LD, ULD, P1, P2, P7, P24 & P26 chamber.
+> Service P7 target ID.
+> Change P1, P2 & P7 vacuum shield.
+> Change ULD PUB.
+> Clean up LD & ULD chamber.
+> Service LD & ULD All ID/OD contact.
+> Change P24 Caps Etch Gun.
+> Change P26 Youtec Gun.
+> Perform LD & ULD APC.Ok
+> Pump down & leak check.Ok
+> Update youtec check list.Ok
+> Manual test fire P1, P2 & P7 target.Ok
+> Air-exhaust youtec chamber 3600sec.
+> Handover R&D.
+
+0 scrap disk
+
+P24 Cap Etch Gun
+New : CE-11
+Old : CE-14
+
+P26 Youtec Gun
+New : 07
+Old : 09
+",PDTA_20077706,2021/04/02,18:10:05,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/21,03:20,05:00,100,"AH SENG,JIANFENG,SUNTHRA,MINGYONG",P26 R1 Youtec filament snap,"- R&D inform P26 R1 Youtec filament snap
+- Stop machine
+- Vent P1, P2, P26, LD&ULD chamber
+- Service LD & ULD All ID/OD contact
+- Change P1, P2, vacuum shield.
+- Change P26 Youtec Gun.
+- Pump down & leak check.Ok
+- Update youtec check list.Ok
+- Manual test fire P1, P2, Ok
+- Air-exhaust youtec chamber 3600sec.
+- Handover RD
+
+
+P26 Youtec Gun
+New : 10
+Old : 09
+",20159974,2021/03/21,04:40:10,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2662,PCVD YOUTEC CHANGE (TROUBLE),2021/03/22,02:55,03:30,35,"PO,SUNTHRA,WANG,CI",P24 R1 Cathode broken,"- Check short with multimeter NG
+- Proceed to change m etch
+- Vent P24 
+- Change new m etch
+- Remove cathode magnet request by RD 
+- Rough down
+- Leak check OK
+- Heat run
+- Handover
+
+old gun no CE 14
+new gun no CE 12",20159986,2021/03/22,03:42:57,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2663,ALIGNMENT MONITORING,2021/03/10,16:25,16:40,15,"LIM TH,ONG  JX",Low GT issue,"Line inform low GT issue suspect due to loas 32/35 lower.
+-Check alignment.
+Load Arm A 31-36 retract 400pulse
+Load Arm A 32/35 increase 700pulse
+Unload Arm B 31-36 extend 200pulse
+Monitor alignment OK
+Handover
+",PDER_20034220,2021/03/10,16:48:14,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2666,BARATRON CALIBRATION,2021/03/17,12:30,12:40,10,FENG WEI,-,"> R&D request to zeroing P28 CM Gauge.
+> Input 4 empty cassette & pause machine.
+> Zeroing P28 CM Gauge.
+> R&D adjust P28 chamber pressure.Ok
+> Offset zeroing P28 CM Gauge.
+> Handover R&D.
+
+0 scrap disk
+",PDTA_20077706,2021/03/17,16:43:03,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2666,BARATRON CALIBRATION,2021/03/23,09:00,09:10,10,ONG JX,-,"> R&D request to zeroing P26 CM Gauge.
+> Zeroing P26 CM Gauge.
+> Handover R&D.
+
+0 scrap disk
+",20034189,2021/03/23,09:57:15,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2666,BARATRON CALIBRATION,2021/03/24,21:45,21:50,5,"SHAHID,PO,SUNTHRA,WANG",-,"- Input empty cass
+- Half Stop sputter
+- Pause P26(Youtec)
+- Zero CM
+- Resume run
+- Monitor
+- Handover",20034409,2021/03/24,23:12:51,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2666,BARATRON CALIBRATION,2021/03/25,14:50,14:55,5,CHAN SL,-,"> R&D request to zeroing CM Gauge.
+> Input 4 empty cassette & pause machine.
+> Zeroing P26 CM Gauge.
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/03/25,17:06:50,,,,
+B03,SPUTTER,E023,SPT,211,-,SM2666,BARATRON CALIBRATION,2021/04/01,12:25,12:30,5,WONG TS,-,"> R&D request to zeroing P27 CM Gauge.
+> Input 4 empty cassette & pause machine.
+> Offset zeroing P27 CM Gauge.
+> Resume run & monitor chamber pressure.Ok
+> Handover R&D.
+
+0 Scrap disk
+",PDTA_20077706,2021/04/01,12:40:21,,,,
