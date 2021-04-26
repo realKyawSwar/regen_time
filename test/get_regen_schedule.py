@@ -1,96 +1,55 @@
 import pandas as pd
-import numpy as np
-from time import perf_counter
-import openpyxl
+# import numpy as np
+# from time import perf_counter
+# import openpyxl
 import datetime
 
-
-today = datetime.date.today()
-start_date = datetime.date(2021, 4, 23)
-delta = today - start_date
-print(delta.days)
-print(today)
+# print(delta.days)
+# print(today)
 # # path = r"R:/MAINT/PUBLIC/Public SDE/SDE Regen Status/SDE- Regen & Carrier Change Schedule.xlsm"
 path = r"SDE- Regen & Carrier Change Schedule.xlsm"
-# # path = "R:\MAINT\SDE\Sputter\Sputter Group\Elgin\Equipment PM.xlsx"
-
-# wb_obj = openpyxl.load_workbook(path)
-
-# sheet = wb_obj.active
 
 
-# def getRegendate(line):
-#     rowNo = 4*(line-200)+1
-#     result = None
-#     for value in sheet.iter_rows(min_row=5, max_row=5,
-#                                  min_col=497+delta.days,
-#                                  max_col=521+delta.days,
-#                                  values_only=True):
-#         print(value)
-#     # for value in sheet.iter_rows(min_row=4, max_row=4,
-#     #                              min_col=496+delta.days,
-#     #                              max_col=500+delta.days,
-#     #                              values_only=True):
-#     #     print(value)
-#         for x, i in enumerate(value):
-#             if i and 'REG' in i.strip():
-#                 result = x + 1
-#                 break
-#     return result
-
-
-
-# def get_regen():
-#     line = []
-#     regen_date = []
-#     for i in range(201, 212):
-#         if i != 206 and i != 207:
-#             x = getRegendate(i)
-#             if x:
-#                 line.append(i)
-#                 print(i)
-#                 print(datetime.timedelta(x)+today)
-#                 regen_date.append(datetime.timedelta(x)+today)
-#             else:
-#                 pass
-#         else:
-#             pass
-#     df = pd.DataFrame({'line': line, 'regen_date': regen_date})
-#     return df
-
-
-# print(get_regen())
-
-
-# print(getRegendate(202))
-# print(getTodaycol())
-
-# print("{} days to Regen".format(getRegendate()))
-# for value in sheet.iter_rows(min_row=5, max_row=5, min_col=8, max_col=30, values_only=True):
-#     for i in value:
-#         print(i)
-
+def ColIdxToXlName(idx):
+    # if idx < 1:
+    #     raise ValueError("Index is too small")
+    result = ""
+    while True:
+        if idx > 26:
+            idx, r = divmod(idx - 1, 26)
+            result = chr(r + ord('A')) + result
+        else:
+            return chr(idx + ord('A') - 1) + result
 
 # regen_path = r"R:/MAINT/PUBLIC/Public SDE/SDE Regen Status/SDE- Regen & Carrier Change Schedule.xlsm"
-rgx = pd.ExcelFile(path)
-
-df = pd.read_excel(rgx, sheet_name='2019-2021',
-                   index_col=None, na_values=['NA'],
-                   usecols="A, AGC:AGL")[2:47]
-# df = df[df['EPS'].notna()]
-df = df.dropna(subset=list(df.columns), how='all')
-
-df.to_excel("regen_schedule.xlsx", index=False)
+# rgx = pd.ExcelFile(path)
 
 
-# import config
+def get_regen():
+    today = datetime.date.today()
+    start_date = datetime.date(2021, 4, 25)
+    delta = today - start_date
+    start_no = 863 + delta.days
+    end_no = start_no + 25
+    # cell column "AGE" on 25/4/2021
+    start = ColIdxToXlName(start_no)
+    end = ColIdxToXlName(end_no)
+    df = pd.read_excel(path, sheet_name=0,
+                       index_col=None, na_values=['NA'],
+                       usecols=f"A, {start}:{end}")[2:47]
+    df = df.dropna(how='all')
+    df.columns = df.iloc[0]
+    df = df.drop(df.index[0])
+    df.columns = df.columns.strftime('%Y-%m-%d')
+    df = df.rename(columns={'NaT': 'line'})
+    df = df.dropna(subset=['line'])
+    df = df.set_index('line')
+    df1 = df.loc[:, (df == 'REGEN(AM)').any()]
+    df1 = df1.reset_index()
+    df1 = pd.melt(df1, id_vars=['line'], var_name='date')
+    df1 = df1[df1['value'] == 'REGEN(AM)']
+    print(df1)
 
-# def getTodaycol():
-#     # searching
-#     for value in sheet.iter_rows(min_row=4, max_row=4, min_col=490,
-#                                  values_only=True):
-#         for x, i in enumerate(value):
-#             if i.date() == today:
-#                 result = x
-#                 break
-#     return(result)
+
+get_regen()
+# df.to_excel("regen_schedule.xlsx", index=False)
