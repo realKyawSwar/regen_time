@@ -30,29 +30,65 @@ def extract(words):
 
 
 def extract_serial(words):
-    # new = []
-    # old = []
     number_list = []
     stringy = words.splitlines()
     stringx = [re.sub(r'(:|=|<|>|/)', '', i).strip().lower() for i in stringy]
     stringz = [re.sub(r'(\s{3}|\s{2})', ' ', i) for i in stringx]
-    lol = [i.replace('new sn ', 'new ').replace('old sn ', 'old ') for i in stringz]
-    for i, new_word in enumerate(lol):
-        if new_word.startswith(('old', 'new')) and re.search(r"((k-s-s4s-\d{4}$)|(k-s-s413-\d{4}$)|(27p\d{5}[a-z]$)|(14z\d{5}[a-z]{1,2}$)|(v\d{6}-\d{2}$)|(\d{4}che\d{5}$)|(\d{4}-\d{5}$)|([1-2]\d{3}$))", new_word):
+    stringj = [re.sub(r'(\bld\b)', 'load', i) for i in stringz]
+    stringj = [re.sub(r'(\bcompressor\b)', 'crc', i) for i in stringj]
+    raw = [i.replace('new sn',
+                     'new').replace('old sn',
+                                    'old').replace('uld',
+                                                   'unload') for i in stringj]
+    temp_list = []
+    for i, new_word in enumerate(raw):
+        research = re.search(r"((k-s-s4s-\d{4}$)|(k-s-s413-\d{4}$)|(27p\d{5}[a-z]$)|(14z\d{5}[a-z]{1,2}$)|(v\d{6}-\d{2}$)|(\d{4}che\d{5}$)|(\d{4}-\d{5}$)|([1-2]\d{3}$))", new_word)
+        research1 = re.search(r"((k-s-s4s-\d{4})|(k-s-s413-\d{4})|(27p\d{5}[a-z])|(14z\d{5}[a-z]{1,2})|(v\d{6}-\d{2})|(\d{4}che\d{5})|(\d{4}-\d{5})|([1-2]\d{3}))", new_word)
+        if new_word.startswith(('old', 'new')) and research:
             # old.append(new_word)
             number_list.append(i)
-        elif re.search(r"((k-s-s4s-\d{4}$)|(k-s-s413-\d{4}$)|(27p\d{5}[a-z]$)|(14z\d{5}[a-z]{1,2}$)|(v\d{6}-\d{2}$)|(\d{4}che\d{5}$)|(\d{4}-\d{5}$)|([1-2]\d{3}$))", new_word):
-            number_list.append(i)
-    # listy = [stringz[i-1] for i in number_list]
-    # good_list = np.unique(old+listy)
+        elif research or research1:
+            temp_list.append(new_word)
     # [58, 59],[62, 63],[66, 67] output
-    lolx = []
+    clean_lol = []
+    matches = ['load', 'unload', 'vtc']
     for k, g in groupby(enumerate(number_list), key=lambda x: x[0] - x[1]):
         pair = list(map(itemgetter(1), g))
         add_min_item = min(pair) - 1
         pair.append(add_min_item)
-        lolx.append([lol[i] for i in pair])
-    return lolx
+        raw2 = [raw[i] for i in pair]
+        if len(raw2) == 3 and re.search(r"(\bp\d{1,2}\b)|(\bc\d{1}\b)", raw2[2]):
+            raw2[2] = re.search(r"(\bp\d{1,2}\b)|(\bc\d{1}\b)", raw2[2]).group(0)
+        elif len(raw2) == 3 and any(x in raw2[2] for x in matches):
+            raw2[2] = re.search(r"\bload\b|\bunload\b|\bvtc\b", raw2[2]).group(0)
+        clean_lol.append(raw2)
+    templist1 = []
+    if temp_list:
+        for i in temp_list:
+            new = re.search(r"(\bnew\b.*?((k-s-s4s-\d{4})|(k-s-s413-\d{4})|(27p\d{5}[a-z])|(14z\d{5}[a-z]{1,2})|(v\d{6}-\d{2})|(\d{4}che\d{5})|(\d{4}-\d{5})|([1-2]\d{3})))", i)
+            if new:
+                templist1.append(new.group(0))
+            else:
+                pass
+    if temp_list:
+        for i in temp_list:
+            old = re.search(r"(\bold\b.*?((k-s-s4s-\d{4})|(k-s-s413-\d{4})|(27p\d{5}[a-z])|(14z\d{5}[a-z]{1,2})|(v\d{6}-\d{2})|(\d{4}che\d{5})|(\d{4}-\d{5})|([1-2]\d{3})))", i)
+            if old:
+                templist1.append(old.group(0))
+            else:
+                pass
+    if temp_list and templist1:
+        chamber = re.search(r"(\bp\d{1,2}\b)|(\bc\d{1}\b)", temp_list[0])
+        otherch = re.search(r"\bload\b|\bunload\b|\bvtc\b|\bhll\b|\bctc\b|crc\s\d{1}",
+                            temp_list[0])
+        if chamber:
+            templist1.append(chamber.group(0))
+        elif otherch:
+            templist1.append(otherch.group(0))
+        else:
+            pass
+    # print(temp_list)
+    return clean_lol+templist1
 
 
 df = pd.read_excel('trouble_report.xlsx')
@@ -61,14 +97,8 @@ df['job'] = df['job'].apply(lambda x: ','.join(map(str, x)))
 df['job'].replace('', np.nan, inplace=True)
 df.dropna(subset=['job'], inplace=True)
 df['serial_no'] = df.ACTION.apply(lambda x: extract_serial(x))
-df['serial_no'] = df['serial_no'].apply(lambda x: ','.join(map(str, x)))
+df['serial_no'] = df['serial_no'].apply(lambda x: '' if len(x)==0 else x)
 df = df[['LINE_ID', 'TROUBLE_DESC', 'TROUBLE_DATE', 'job', 'serial_no']]
-df.to_excel("final1.xlsx")
-# print(df.loc[5])
-# print(df.ACTION[5])
-# listy = tuple(new_word.split(' '))
-# elif new_word.startswith('new') and re.search(r"((k-s-s4s-\d{4}$)|(k-s-s413-\d{4}$)|(27p\d{5}[a-z]$)|(14z\d{5}[a-z]{1,2}$)|(v\d{6}-\d{2}$)|(\d{4}che\d{5}$)|(\d{4}-\d{5}$)|([1-2]\d{3}$))", new_word):
-#     listx = tuple(new_word.split(' '))
-#     new.append(listx)
-# elif re.search(r"((k-s-s4s-\d{4}$)|(k-s-s413-\d{4}$)|(27p\d{5}[a-z]$)|(14z\d{5}[a-z]{1,2}$)|(v\d{6}-\d{2}$)|(\d{4}che\d{5}$)|(\d{4}-\d{5}$)|([1-2]\d{3}$))", new_word):
-#     new_words.append(new_word)
+df.reset_index(inplace=True)
+df.to_excel("final2.xlsx")
+# print(df.serial_no.iloc[14])
