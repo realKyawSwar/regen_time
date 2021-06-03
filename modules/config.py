@@ -3,9 +3,9 @@ import datetime
 
 db_config = {
         "VIEW": {
-            "server": "128.53.1.45:1521/ORCL",
-            "user": "EP_VIEW",
-            "password": "EP_VIEW"
+            "server": "",
+            "user": "",
+            "password": ""
         }
 }
 
